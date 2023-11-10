@@ -14,9 +14,10 @@ if response.status_code == 200:
     song_names = []
     stream_counts = []
     #songs = soup.find_all('div', class_='Type__TypeElement-sc-goli3j-0 ieTwfQ nYg_xsOVmrVE_8qk1GCW', attrs={'data-encore-id': 'type'})
-    #songs = soup.find_all('div')
+    songs = soup.find_all('data-encore-id')
     number = soup.find_all(string="342,502")
-    print(number)
+    test = soup.find_all(class_ = "Type__TypeElement-sc-goli3j-0 ieTwfQ nYg_xsOVmrVE_8qk1GCW")
+    print(songs)
 
     #print(songs)
     counts = soup.find_all('span', class_='second-line')
