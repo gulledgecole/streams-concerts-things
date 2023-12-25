@@ -1,38 +1,89 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
+# importing the libraries 
+from bs4 import BeautifulSoup 
+import requests 
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
-# Send an HTTP GET request to the artist's Spotify URL
-artist_url = "https://open.spotify.com/artist/4nUBBtLtzqZGpdiynTJbYJ"
-response = requests.get(artist_url)
+# creating function 
+def scrape_info(url): 
+	
+	# getting the request from url 
+	r = requests.get(url) 
+	
+	# converting the text 
+	s = BeautifulSoup(r.text, "html.parser") 
+	
+	# finding meta info for title 
+	title = s.find("span", class_="watch-title").text.replace("\n", "") 
+	
+	# finding meta info for views 
+	views = s.find("div", class_="watch-view-count").text 
+	
+	# finding meta info for likes 
+	likes = s.find("span", class_="like-button-renderer").span.button.text 
+	
+	# saving this data in dictionary 
+	data = {'title':title, 'views':views, 'likes':likes} 
+	
+	# returning the dictionary 
+	return data 
 
-# Check if the request was successful
-if response.status_code == 200:
-    soup = BeautifulSoup(response.text, 'html.parser')
+# main function 
+# if __name__ == "__main__": 
+	
+# 	# URL of the video 
+# 	url ="https://www.youtube.com/watch?time_continue=17&v=2wEA8nuThj8"
+	
+# 	# calling the function 
+# 	data = scrape_info(url) 
+	
+# 	# printing the dictionary 
+# 	print(data) 
 
-    # Find and extract song names and stream counts for the top 10 songs
-    song_names = []
-    stream_counts = []
-    #songs = soup.find_all('div', class_='Type__TypeElement-sc-goli3j-0 ieTwfQ nYg_xsOVmrVE_8qk1GCW', attrs={'data-encore-id': 'type'})
-    songs = soup.find_all('data-encore-id')
-    number = soup.find_all(string="342,502")
-    test = soup.find_all(class_ = "Type__TypeElement-sc-goli3j-0 ieTwfQ nYg_xsOVmrVE_8qk1GCW")
-    print(songs)
 
-    #print(songs)
-    counts = soup.find_all('span', class_='second-line')
-    for song, count in zip(songs[:10], counts[:10]):
-        song_names.append(song.text)
-        stream_counts.append(count.text)
+#sGET https://www.googleapis.com/youtube/v3/search?key={your_key_here}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=20
 
-    # Create a pandas DataFrame with the scraped data
-    data = {'Song Name': song_names, 'Stream Count': stream_counts}
-    df = pd.DataFrame(data)
 
-    # Print the DataFrame
-    print(df)
+DEVELOPER_KEY = 'AIzaSyBojdanEe9sdgK1hdspp2pYaHoupzOYRFU'
+YOUTUBE_API_SERVICE_NAME = 'youtube'
+YOUTUBE_API_VERSION = 'v3'
 
-    # You can also save the data to a CSV file if needed
-    # df.to_csv('spotify_stream_counts.csv', index=False)
-else:
-    print("Failed to retrieve the page. Status code:", response.status_code)
+def youtube_search():
+    videos = []
+    youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
+    developerKey=DEVELOPER_KEY)
+    response = youtube.channels().list(
+        part="contentDetails",
+        id="UCy64jj2RTOM8lILQNGHF02A"
+        ).execute()
+    print(response)
+    playlist_id = response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
+
+    # Retrieve videos from the playlist
+    playlist_items = youtube.playlistItems().list(
+        part="snippet",
+        playlistId=playlist_id,
+        maxResults=50  # Set the maximum number of results per request
+    ).execute()
+    #print(playlist_items)
+    while playlist_items:
+        videos.extend(playlist_items["items"])
+        next_page_token = playlist_items.get("nextPageToken")
+        if next_page_token:
+            playlist_items = youtube.playlistItems().list(
+                part="snippet",
+                playlistId=playlist_id,
+                maxResults=50,
+                pageToken=next_page_token
+            ).execute()
+        else:
+            break
+
+    return videos
+vids = youtube_search()
+for video in vids:
+        title = video["snippet"]["title"]
+        views = video["statistics"]["viewCount"]
+        print(f"Video Title: {title}")
+        print(f"Views: {views}")
+        
