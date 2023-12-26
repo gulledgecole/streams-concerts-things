@@ -5,21 +5,18 @@ from google.cloud import secretmanager
 
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
-youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
 
 def get_key(): 
     client = secretmanager.SecretManagerServiceClient()
     name = "projects/639888050178/secrets/youtube-key/versions/1"
-    # Get the secret version.
     response = client.access_secret_version(request={"name": name})
-    # Print information about the secret version.
     payload = response.payload.data.decode("UTF-8")
-    print(payload)
+    
+    return payload
 
-def youtube_search():
+def youtube_search(payload):
     videos = []
-    youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
-    developerKey=DEVELOPER_KEY)
+    youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=payload)
     response = youtube.channels().list(
         part="contentDetails",
         id="UCy64jj2RTOM8lILQNGHF02A"
@@ -48,18 +45,27 @@ def youtube_search():
             break
 
     return videos
-if __name__ == "__main__": 
-    videos = youtube_search()
-    secret = get_key()
-    for vid in videos:
+
+def get_views(videos, payload):
+    youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=payload)
+    for vid in videos: 
         title = vid["snippet"]["title"]
         published = vid["snippet"]["publishedAt"]
         id = vid["snippet"]["resourceId"]["videoId"]
-        vids = youtube.videos().list(
+        stats = youtube.videos().list(
             part = "statistics",
-            id = id).execute()
-        views = (vids['items'][0]['statistics']['viewCount'] )
-        print(f"{title} with the id: {id} has {views} views" )
+            id = id
+            ).execute()
+        views = (stats['items'][0]['statistics']['viewCount'])
+        print(views)
+
+    return views
+
+
+if __name__ == "__main__": 
+    payload = get_key()
+    videos = youtube_search(payload)
+    views = get_views(videos, payload)
 
     
     
