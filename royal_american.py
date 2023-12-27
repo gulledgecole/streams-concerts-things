@@ -1,7 +1,18 @@
 from bs4 import BeautifulSoup
+from dateutil import parser
 import requests
 import re
+#
 # 
+def date_handler(date):
+    try: 
+        date = parser.parse(date)
+        date = date.strftime("%a, %b %d, %Y") 
+    except Exception as e: 
+        print(f"there was an error with {date}, see error {e}")
+
+    return date
+
 def scrape_royal(): 
     url = 'https://www.theroyalamerican.com/schedule/'
 
@@ -13,61 +24,20 @@ def scrape_royal():
         html_content = data.text
         soup = BeautifulSoup(html_content, 'html.parser')
         div_elements = soup.find_all('div', class_='eventlist-column-info')
-        #for i in div_elements[0]:
-            # print(i)
-            # print(i.get_text(strip=True))
-# Check if there are any matching div elements
         if div_elements:
-            # Loop through each div element
             for div_element in div_elements:
-                # Extract information from the div
                 title = div_element.find('h1', class_='eventlist-title').text.strip()
-                date_elements = div_element.select('ul.eventlist-meta-date time.event-date')
-                times_12hr = div_element.select('ul.eventlist-meta-date time.event-time-12hr')
-                # times_24hr = div_element.select('ul.eventlist-meta-date time.event-time-24hr')
-                description = div_element.find('div', class_='eventlist-description').find('p').text.strip()
-                #print(description)
-                bands = [band.strip() for band in description.split('*') if band.strip()]
-
-# Create a dictionary with the key "bands"
-                result_dict = {"bands": bands}
-                print(result_dict)
-
-                # Split the substring by "*" to get individual parts
-                #individual_parts = [part.strip() for part in substring_after_pipe.split('*')]
-                #description = div_element.find('div', class_='eventlist-description')
-                #print(description)
-                # performer_paragraphs = description.find_all('p', class_='')
-                # for i in performer_paragraphs: 
-                #     print(i.text.strip())
-                # for paragraph in performer_paragraphs:
-                #     performers = [performer.strip() for performer in paragraph.text.split('*')]
-                #     print("Performers:", performers)
-                #print(description)
-                #event_description_div = div_element.find('div', class_='eventlist-description')
-                # view_event_link = div_element.find('a', class_='eventlist-button').get('href')
-
-                # Organize information into JSON format for each div
+                date = div_element.find('time', class_="event-date").text.strip()
+                date = date_handler(date)
+                input_string = div_element.find('div', class_="eventlist-description").find('p')
+                cleaned_band_list1 = [a.get_text(strip=True)[2:] for a in input_string.find_all('a') if a.get_text(strip=True)]
+                cleaned_band_list = [band for band in cleaned_band_list1 if band]
                 event_json = {
                     "Title": title,
-                    # "Dates": [{"Day": date.text.split(',')[0], "Date": date.text.split(',')[1].strip()} for date in date_elements],
-                    # "Times_12hr": [time.text.strip() for time in times_12hr],
-                    # "Times_24hr": [time.text.strip() for time in times_24hr],
-                     "Description": description,
-                    # "ViewEventLink": view_event_link
+                    "Date": date,
+                    "Bands" : cleaned_band_list
                 }
-
-                # Print or store the resulting JSON for each div
-                #print(event_json)
         else:
             print("No div elements with the specified class found.")
-    
-        # Loop through each element and print its text
-        # for index, element in enumerate(div_element, start=1):
-        #     if element.name == 'a':  # Ensure the element is an <a> tag
-        #         print(f"Text inside <a> {index}: {element.text.strip()}")
-        #     else:
-        #         print("No div with the specified class found.")
-
-
-scrape_royal()
+if __name__ == '__main__':
+    scrape_royal()
