@@ -13,14 +13,9 @@ def date_handler(date):
 
     return date
 
-def scrape_royal(): 
-    url = 'https://www.theroyalamerican.com/schedule/'
-
+def scrape_royal(url): 
     data = requests.get(url)
-
-    #print(data.text)
     if data.status_code == 200:
-    # Get the HTML content from the response
         html_content = data.text
         soup = BeautifulSoup(html_content, 'html.parser')
         div_elements = soup.find_all('div', class_='eventlist-column-info')
@@ -40,4 +35,4 @@ def scrape_royal():
         else:
             print("No div elements with the specified class found.")
 if __name__ == '__main__':
-    scrape_royal()
+    scrape_royal('https://www.theroyalamerican.com/schedule/')
