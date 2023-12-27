@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 from dateutil import parser
 import requests
 import re
-#
-# 
+
+
 def date_handler(date):
     try: 
         date = parser.parse(date)
