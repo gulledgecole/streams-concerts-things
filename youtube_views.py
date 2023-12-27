@@ -64,8 +64,3 @@ if __name__ == "__main__":
     payload = get_key()
     videos = youtube_search(payload)
     views = get_views(videos, payload)
-
-    
-    
-    
-        
