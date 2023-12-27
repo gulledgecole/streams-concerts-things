@@ -21,7 +21,6 @@ def youtube_search(payload):
         part="contentDetails",
         id="UCy64jj2RTOM8lILQNGHF02A"
         ).execute()
-    #print(response)
     playlist_id = response["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
     # Retrieve videos from the playlist
@@ -30,7 +29,6 @@ def youtube_search(payload):
         playlistId=playlist_id,
         maxResults=50  # Set the maximum number of results per request
     ).execute()
-    #print(playlist_items)
     while playlist_items:
         videos.extend(playlist_items["items"])
         next_page_token = playlist_items.get("nextPageToken")
