@@ -4,8 +4,6 @@ import json
 import requests
 import re
 
-# /html/body/div[2]/div/main/div/section/div/div/div/div/div/div/div[2]/div/div/div[2]/div[1]
-# #post-3505 > div > div > div > div > div > div.fusion-text.fusion-text-1 > div > div > div.tribe-events-calendar-list > div:nth-child(1) > div
 def date_handler(date):
     try: 
         date = parser.parse(date)
