@@ -37,6 +37,7 @@ def scrape_royal(url):
                     "State" : "South Carolina",
                     "Long" : "-79.942380", 
                     "Lat" : "32.807180",
+                    "Capacity" : "320",
                     "Title": title,
                     "Date": date,
                     "Bands" : cleaned_band_list
