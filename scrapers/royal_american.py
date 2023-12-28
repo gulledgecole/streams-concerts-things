@@ -11,6 +11,7 @@ def date_handler(date):
         date = date.strftime("%a, %b %d, %Y") 
     except Exception as e: 
         print(f"there was an error with {date}, see error {e}")
+        "hello"
 
     return date
 
