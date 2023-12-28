@@ -1,18 +1,9 @@
 from bs4 import BeautifulSoup
 from dateutil import parser
+import date_shift
 import json
 import requests
 import re
-
-def date_handler(date):
-    try: 
-        date = parser.parse(date)
-        date = date.strftime("%a, %b %d, %Y") 
-    except Exception as e: 
-        print(f"there was an error with {date}, see error {e}")
-
-    return date
-
 
 def scrape_pour(url): 
     data = requests.get(url)
@@ -26,7 +17,7 @@ def scrape_pour(url):
             show = div_element.text.strip()
             band = div_element.find('a', class_="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin").text.strip()
             date = div_element.find("time")["datetime"]
-            date = date_handler(date)
+            date = date_shift.date_handler(date)
             event_json = {
                 "Venue" : "The Charleston Pour House",
                 "Street" : "1977 Maybank Highway", 
@@ -45,3 +36,4 @@ def scrape_pour(url):
             
 if __name__ == "__main__": 
     event = scrape_pour("https://charlestonpourhouse.com/shows/")
+    print(event)
