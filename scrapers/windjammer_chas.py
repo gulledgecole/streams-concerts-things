@@ -23,10 +23,8 @@ def scrape_windjammer(url):
             band = [re.sub(r' 21.*', '', band).replace("-", "").strip()]
             bands = [item.strip() for item in band[0].split(' w/')]
             bands = [item.split(maxsplit=1)[1].strip() if item.split(maxsplit=1)[0] in days else item for item in bands]
-            #date = div_element.find('i', class_="fa fa-calendar").text()
             date = div_element.find('p').text.strip()
             date = date_shift.date_handler(date)
-            #date = date_shift.date_handler(date)
             event_json = {
                     "Venue" : "The Windjammer",
                     "Street" : "1008 Ocean Blvd", 
@@ -44,4 +42,3 @@ def scrape_windjammer(url):
             
 
 data = scrape_windjammer("https://whollyticket.com/upcomingEvents/?id=67%20-%20ticketing")
-print(data)
