@@ -23,5 +23,25 @@ def scrape_musicfarm_chas(url):
                 band_support = div_element.find('div', class_ = "event-supporting-acts")
                 if band_support:
                     bands.append(band_support.text.strip().replace('w/ ', ''))
+                date = div_element.find('div', class_ = "event-date").text.strip()
+                date = date_shift.date_handler(date)
+                event_json = {
+                    "Venue" : "Music Farm",
+                    "Street" : "32 Ann Street", 
+                    "City" : "Charleston",
+                    "State" : "South Carolina",
+                    "Long" : "-79.938340", 
+                    "Lat" : "32.790190",
+                    "Capacity" : "800",
+                    "Date": date,
+                    "Bands" : bands
+                }
+                data[iteration_counter] = event_json
+                iteration_counter += 1
+            
+            return data
 
-scrape_musicfarm_chas("https://www.musicfarm.com/calendar/")
+                
+
+event = scrape_musicfarm_chas("https://www.musicfarm.com/calendar/")
+print(event)
