@@ -32,7 +32,7 @@ def scrape_royal(url):
                 cleaned_band_list = [band for band in cleaned_band_list1 if band]
                 event_json = {
                     "Venue" : "The Royal American",
-                    "street" : "970 Morrison Dr", 
+                    "Street" : "970 Morrison Dr", 
                     "City" : "Charleston",
                     "State" : "South Carolina",
                     "Long" : "-79.942380", 
