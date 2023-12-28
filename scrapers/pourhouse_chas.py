@@ -15,7 +15,7 @@ def scrape_pour(url):
         div_elements = soup.find_all('div', class_= "tribe-events-calendar-list__event-wrapper tribe-common-g-col")
         for div_element in div_elements:
             show = div_element.text.strip()
-            band = div_element.find('a', class_="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin").text.strip()
+            bands = div_element.find('a', class_="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin").text.strip()
             date = div_element.find("time")["datetime"]
             date = date_shift.date_handler(date)
             event_json = {
@@ -27,7 +27,7 @@ def scrape_pour(url):
                 "Lat" : "32.762050",
                 "Capacity" : "450",
                 "Date": date,
-                "Bands" : band
+                "Bands" : [bands]
             }
             data[iteration_counter] = event_json
             iteration_counter += 1
