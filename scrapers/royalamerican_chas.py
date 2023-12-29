@@ -29,7 +29,6 @@ def scrape_royal(url):
                     "Long" : "-79.942380", 
                     "Lat" : "32.807180",
                     "Capacity" : "320",
-                    "Title": title,
                     "Date": date,
                     "Bands" : cleaned_band_list
                 }
@@ -39,5 +38,6 @@ def scrape_royal(url):
             print("No div elements with the specified class found.")
         
         return data
-if __name__ == '__main__':
-    event = scrape_royal('https://www.theroyalamerican.com/schedule/')
+    
+event = scrape_royal('https://www.theroyalamerican.com/schedule/')
+date_shift.write_dict_to_json(event, "royalamerican_chas")

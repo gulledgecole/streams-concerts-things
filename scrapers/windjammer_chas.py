@@ -41,4 +41,5 @@ def scrape_windjammer(url):
         return data
             
 
-data = scrape_windjammer("https://whollyticket.com/upcomingEvents/?id=67%20-%20ticketing")
+event = scrape_windjammer("https://whollyticket.com/upcomingEvents/?id=67%20-%20ticketing")
+date_shift.write_dict_to_json(event, "windjammer_chas")

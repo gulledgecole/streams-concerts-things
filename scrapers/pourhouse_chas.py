@@ -33,6 +33,6 @@ def scrape_pour(url):
         
         return data
             
-if __name__ == "__main__": 
-    event = scrape_pour("https://charlestonpourhouse.com/shows/")
-    print(event)
+
+event = scrape_pour("https://charlestonpourhouse.com/shows/")
+date_shift.write_dict_to_json(event, "pourhouse_chas")
