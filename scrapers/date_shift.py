@@ -1,6 +1,7 @@
 from dateutil import parser
 from datetime import datetime
 import json
+import inspect
 import os
 
 def date_handler(date):
@@ -12,7 +13,7 @@ def date_handler(date):
 
     return date
 
-def write_dict_to_json(dictionary, filename):
+def write_dict_to_json(dictionary):
     """
     Write a dictionary to a JSON file.
 
@@ -25,6 +26,8 @@ def write_dict_to_json(dictionary, filename):
     """
     # Ensure that the "./concerts/" folder exists
     today_date = datetime.now().strftime('%Y-%m-%d')
+    frame = inspect.stack()[1]
+    filename = os.path.splitext(os.path.basename(frame[1]))[0]
     current_directory = os.getcwd()
     directory_path = os.path.join(current_directory, '..', 'concerts', filename)
     os.makedirs(directory_path, exist_ok=True)

@@ -44,4 +44,4 @@ def scrape_musicfarm_chas(url):
                 
 
 event = scrape_musicfarm_chas("https://www.musicfarm.com/calendar/")
-date_shift.write_dict_to_json(event, "musicfarm_chas")
+date_shift.write_dict_to_json(event)
