@@ -20,9 +20,9 @@ def scrape_windjammer(url):
         for div_element in div_elements:
             bands = []
             band = div_element.find('h4').text.strip()
-            band = [re.sub(r' 21.*', '', band).replace("-", "").strip()]
+            band = [re.sub(r' 21.*', '', band).replace("-", "").strip()] # removing everything after "21* and up!"
             bands = [item.strip() for item in band[0].split(' w/')]
-            bands = [item.split(maxsplit=1)[1].strip() if item.split(maxsplit=1)[0] in days else item for item in bands] # hate this line.
+            bands = [item.split(maxsplit=1)[1].strip() if item.split(maxsplit=1)[0] in days else item for item in bands] # hate this line. removing days of week.
             date = div_element.find('p').text.strip()
             date = date_shift.date_handler(date)
             event_json = {
