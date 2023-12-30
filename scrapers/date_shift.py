@@ -4,13 +4,14 @@ import json
 import inspect
 import os
 
-def date_handler(date):
-    try: 
-        date = parser.parse(date)
-        date = date.strftime("%a, %b %d, %Y") 
-    except Exception as e: 
-        print(f"there was an error with {date}, see error {e}")
+## Need to add exception when year is not provided.
 
+def date_handler(dates):
+    try: 
+        date = parser.parse(dates)
+        date = date.strftime("%a, %b %d, %Y")
+    except Exception as e: 
+        print(f"there was an error with {dates}, see error {e}")
     return date
 
 def write_dict_to_json(dictionary):
