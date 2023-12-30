@@ -12,6 +12,9 @@ def scrape_pour(url):
         iteration_counter = 1
         data = {}
         soup = BeautifulSoup(html_content, 'html.parser')
+        tokens = soup.find_all()
+        num_tokens = len(tokens)
+        print(num_tokens)
         div_elements = soup.find_all('div', class_= "tribe-events-calendar-list__event-wrapper tribe-common-g-col")
         for div_element in div_elements:
             bands = div_element.find('a', class_="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin").text.strip()

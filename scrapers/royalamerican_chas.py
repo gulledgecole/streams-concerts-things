@@ -13,6 +13,9 @@ def scrape_royal(url):
         div_elements = soup.find_all('div', class_='eventlist-column-info')
         data = {}
         iteration_counter = 1
+        tokens = soup.find_all()
+        num_tokens = len(tokens)
+        print(num_tokens)
         if div_elements:
             for div_element in div_elements:
                 title = div_element.find('h1', class_='eventlist-title').text.strip()
