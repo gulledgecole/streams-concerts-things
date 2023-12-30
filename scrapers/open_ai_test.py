@@ -17,6 +17,7 @@ completion = client.chat.completions.create(
     {"role": "system", "content": "You are a master at scraping and parsing raw HTML with beautiful soup and python."},
     {"role": "user", "content": html_text}
   ]
+)
 # completion = client.chat.completions.create(
 #   model="gpt-4-1106-preview", # Feel free to change the model to gpt-3.5-turbo-1106
 #   messages=[
