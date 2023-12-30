@@ -6,6 +6,7 @@ import requests
 import re
 
 def scrape_greyeagleash(url):
+    headers = {"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
     data = requests.get(url)
     print(data)
     if data.status_code == 200:
@@ -20,4 +21,4 @@ def scrape_greyeagleash(url):
             print(div_element.text.strip())
 
 
-scrape_greyeagleash("https://www.thegreyeagle.com/calendar/")
+scrape_greyeagleash("https://www.thegreyeagle.com/calendar")
