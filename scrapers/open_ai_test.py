@@ -2,21 +2,22 @@ import json
 import requests
 from openai import OpenAI
 
-client = OpenAI(
-  api_key='api-key'
-)
+client = OpenAI(api_key="api-key")
 
-targetUrl = 'https://books.toscrape.com/' # Target URL will always changes
+targetUrl = "https://books.toscrape.com/"  # Target URL will always changes
 response = requests.get(targetUrl)
 html_text = response.text
 
 
 completion = client.chat.completions.create(
-  model="gpt-4-1106-preview", # Feel free to change the model to gpt-3.5-turbo-1106
-  messages=[
-    {"role": "system", "content": "You are a master at scraping and parsing raw HTML with beautiful soup and python."},
-    {"role": "user", "content": html_text}
-  ]
+    model="gpt-4-1106-preview",  # Feel free to change the model to gpt-3.5-turbo-1106
+    messages=[
+        {
+            "role": "system",
+            "content": "You are a master at scraping and parsing raw HTML with beautiful soup and python.",
+        },
+        {"role": "user", "content": html_text},
+    ],
 )
 # completion = client.chat.completions.create(
 #   model="gpt-4-1106-preview", # Feel free to change the model to gpt-3.5-turbo-1106
@@ -62,4 +63,4 @@ completion = client.chat.completions.create(
 
 # # Print in a nice format
 # for book in data:
-#     print(book['title'], book['rating'], book['price']) 
+#     print(book['title'], book['rating'], book['price'])
