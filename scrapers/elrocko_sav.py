@@ -1,10 +1,4 @@
-from bs4 import BeautifulSoup
-from dateutil import parser
-import date_shift
-import json
-import requests
-import re
-
+from imports import *
 # Rocko Lounge, 117 Whitaker St, Savannah, GA 31401, USA
 
 def scrape_elrocko_sav(url):

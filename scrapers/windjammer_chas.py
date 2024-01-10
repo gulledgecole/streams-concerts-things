@@ -1,9 +1,4 @@
-from bs4 import BeautifulSoup
-from dateutil import parser
-import date_shift
-import json
-import requests
-import re
+from imports import *
 
 # really weird one, had to go to try to buy ticket to see all events. 
 # bad website

@@ -1,10 +1,4 @@
-from bs4 import BeautifulSoup
-from dateutil import parser
-import date_shift
-import json
-import requests
-import random
-import re
+from imports import *
 
 def scrape_greyeagleash(url):
     user_agents_list = [
