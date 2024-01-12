@@ -22,7 +22,7 @@ def scrape_musicfarm_chas(url):
                 if band_support:
                     bands.append(band_support.text.strip().replace("w/ ", ""))
                 date = div_element.find("div", class_="event-date").text.strip()
-                date = date_shift.date_handler(date)
+                date = helpers.date_handler(date)
                 event_json = {
                     "Venue": "Music Farm",
                     "Street": "32 Ann Street",

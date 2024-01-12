@@ -19,7 +19,7 @@ def scrape_newbrooklandtav(url):
                 item.strip() for item in bands[0].split(",")
             ]  # this website seperates bands by "," in title.
             date = div_element.find("div", class_="v2vbgt").text.strip()
-            date = date_shift.date_handler(date)
+            date = helpers.date_handler(date)
             event_json = {
                 "Venue": "The New Brookland Tavern",
                 "Street": "122 State St",  ## IT APPEARS THEY ARE MOVING LOCATIONS FYI

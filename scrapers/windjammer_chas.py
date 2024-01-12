@@ -3,7 +3,6 @@ from imports import *
 # really weird one, had to go to try to buy ticket to see all events.
 # bad website
 
-
 def scrape_windjammer(url):
     data = requests.get(url)
     if data.status_code == 200:
@@ -35,7 +34,7 @@ def scrape_windjammer(url):
                 for item in bands
             ]  # hate this line. removing days of week.
             date = div_element.find("p").text.strip()
-            date = date_shift.date_handler(date)
+            date = helpers.date_handler(date)
             event_json = {
                 "Venue": "The Windjammer",
                 "Street": "1008 Ocean Blvd",

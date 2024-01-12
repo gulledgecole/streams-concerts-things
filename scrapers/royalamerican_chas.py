@@ -16,7 +16,7 @@ def scrape_royal(url):
             for div_element in div_elements:
                 title = div_element.find("h1", class_="eventlist-title").text.strip()
                 date = div_element.find("time", class_="event-date").text.strip()
-                date = date_shift.date_handler(date)
+                date = helpers.date_handler(date)
                 input_string = div_element.find(
                     "div", class_="eventlist-description"
                 ).find("p")

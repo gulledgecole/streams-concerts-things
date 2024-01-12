@@ -20,7 +20,7 @@ def scrape_pour(url):
                 class_="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin",
             ).text.strip()
             date = div_element.find("time")["datetime"]
-            date = date_shift.date_handler(date)
+            date = helpers.date_handler(date)
             event_json = {
                 "Venue": "The Charleston Pour House",
                 "Street": "1977 Maybank Highway",
