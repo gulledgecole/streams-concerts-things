@@ -1,5 +1,7 @@
 from imports import *
 
+## GREY EAGLE IS PISSING ME OFF, MOVING TO NEXT ONE.
+
 
 def scrape_greyeagleash(url):
     user_agents_list = [
