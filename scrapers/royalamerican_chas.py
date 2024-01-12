@@ -46,4 +46,4 @@ def scrape_royal(url):
 
 
 event = scrape_royal("https://www.theroyalamerican.com/schedule/")
-date_shift.write_dict_to_json(event)
+helpers.write_dict_to_json(event)
