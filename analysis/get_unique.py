@@ -7,6 +7,7 @@ def extract_bands_from_json(json_file):
         unique_bands = set()
         for key in data:
             bands = data[key].get("Bands", [])
+            print(bands)
             unique_bands.update(bands)
         return unique_bands
 
