@@ -3,6 +3,10 @@ import json
 import csv
 
 def get_band_venue_count(folder_path):
+    """ The update method is super cheeky, defined as such: 
+    The update method of a set in Python is used to add elements from an iterable (such as a list) to the set,
+    and it automatically handles duplicates. Sets are dope. 
+    """
     unique_bands = set()
 
     # Walk through the directory tree
@@ -36,8 +40,9 @@ with open(output_csv_file, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     
     # Write the header if needed
-    # writer.writerow(['Band'])
+    writer.writerow(['Band'])
     
     # Write the data
     for band in band_list:
         writer.writerow([band])
+
