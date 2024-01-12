@@ -14,7 +14,6 @@ def scrape_snug(url):
         soup = BeautifulSoup(html_content, "html.parser")
 
         div_elements = soup.find_all("div", class_ = "wp-block-media-text__content")
-        #clean_bands_list = []
 
     # Iterate through each div element
         for div_element in div_elements:
@@ -32,7 +31,6 @@ def scrape_snug(url):
                     clean_bands_list.append(modified_item)
             print(clean_bands_list)
             date = div_element.find('p', class_ = "has-text-align-center has-large-font-size").text.strip()
-            #xdate = helpers.date_handler(date)
 
 
 
