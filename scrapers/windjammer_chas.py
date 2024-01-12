@@ -3,6 +3,7 @@ from imports import *
 # really weird one, had to go to try to buy ticket to see all events.
 # bad website
 
+
 def scrape_windjammer(url):
     data = requests.get(url)
     if data.status_code == 200:

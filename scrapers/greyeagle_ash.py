@@ -24,22 +24,26 @@ def scrape_greyeagleash(url):
         # # Write the prettified HTML string to the file
         # with open(output_file, "w", encoding="utf-8") as file:
         #     file.write(prettified_html)
-        #div_elements = soup.find_all("div", class_="col-12 px-0 eventTitleDiv")
+        # div_elements = soup.find_all("div", class_="col-12 px-0 eventTitleDiv")
         div_elements = soup.find_all("div", class_="row g-0")
         for div_element in div_elements[:8]:
-            try: 
-                #date = div_element.find("div", class_="mb-0 eventMonth singleEventDate text-uppercase", id_="eventDate")
-                band = div_element.find('h2', class_ = "mb-1 font1by25 font1By5remMD marginBottom3PX font1By75RemSM font1By5RemXS")
+            try:
+                # date = div_element.find("div", class_="mb-0 eventMonth singleEventDate text-uppercase", id_="eventDate")
+                band = div_element.find(
+                    "h2",
+                    class_="mb-1 font1by25 font1By5remMD marginBottom3PX font1By75RemSM font1By5RemXS",
+                )
                 if band:
-                    band = (band.text.strip())
-                    #date = (date.text.strip())
-                    #print(date)
+                    band = band.text.strip()
+                    # date = (date.text.strip())
+                    # print(date)
                     print(band)
-                else: 
+                else:
                     continue
-            except Exception as e: 
+            except Exception as e:
                 print(f"An error occurred: {e}")
 
             continue
+
 
 scrape_greyeagleash("https://www.thegreyeagle.com/calendar")

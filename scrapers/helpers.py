@@ -58,6 +58,5 @@ def scraper(url, find_all):
             return div_elements, iteration_counter, data
     except requests.exceptions.RequestException as e:
         print(f"request is failing, as a result of {e}")
-    
-    return
 
+    return
