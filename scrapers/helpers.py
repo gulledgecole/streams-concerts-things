@@ -27,10 +27,11 @@ def date_checker(dates):
 
 
 def date_handler(dates):
-    """Takes in a date, spits out a date in the format I like. 
+    """Takes in a date, spits out a date in the format I like.
     Wed, Feb 08, 2024 for example.
-    If a year is not provided, it assumes the current year, which I do not hate. 
-    If its a dumb output, as mentioned in above function, datechecker, it just reutnrs xxx."""
+    If a year is not provided, it assumes the current year, which I do not hate.
+    If its a dumb output, as mentioned in above function, datechecker, it just reutnrs xxx.
+    """
     if date_checker(dates):
         datez = parser.parse(dates)
         datez = datez.strftime("%a, %b %d, %Y")

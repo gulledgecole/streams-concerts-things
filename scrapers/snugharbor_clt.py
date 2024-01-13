@@ -21,7 +21,7 @@ def scrape_snug(url):
             # Find all strong elements within the div
             bands = div_element.find_all("strong")
             cleaned_band_list = []
-            
+
             # Iterate through each strong element. There's a couple bullshit ones we can't do anything about, not worth it.
             for band in bands:
                 # Extract text, remove "w/" and strip spaces
@@ -52,10 +52,10 @@ def scrape_snug(url):
             }
             data[iteration_counter] = event_json
             iteration_counter += 1
-        
+
         return data
-    else: 
-        print('website not reachable.')
+    else:
+        print("website not reachable.")
 
 
 data = scrape_snug("https://snugrock.com/")
