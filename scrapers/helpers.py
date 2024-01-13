@@ -24,6 +24,7 @@ def date_checker(dates):
         r"(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat),\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2}",  # Example: Thu, Feb 08
         r"(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat),\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{2,4}",  # Example: Fri, Jan 12, 2024
         r"(Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday) (January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}",
+        r"(Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday) (January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}|\b(?:Sun|Mon|Tue|Wed|Thu|Fri|Sat), \d{1,2} (?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b",
     ]
 
     return any(re.search(pattern, dates, re.I) for pattern in date_patterns)
