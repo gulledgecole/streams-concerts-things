@@ -35,6 +35,7 @@ def scrape_windjammer(url):
                 for item in bands
             ]  # hate this line. removing days of week.
             date = div_element.find("p").text.strip()
+            date = re.sub(r'\b2024\b.*', '2024', date)
             date = helpers.date_handler(date)
             event_json = {
                 "Venue": "The Windjammer",
