@@ -13,12 +13,15 @@ def scrape_snug(url):
         soup = BeautifulSoup(html_content, "html.parser")
 
         div_elements = soup.find_all("div", class_="wp-block-media-text__content")
+        data = {}
+        iteration_counter = 1
 
         # Iterate through each div element
         for div_element in div_elements:
             # Find all strong elements within the div
             bands = div_element.find_all("strong")
-            clean_bands_list = []
+            cleaned_band_list = []
+            
             # Iterate through each strong element. There's a couple bullshit ones we can't do anything about, not worth it.
             for band in bands:
                 # Extract text, remove "w/" and strip spaces
@@ -31,12 +34,29 @@ def scrape_snug(url):
                     and "w/" not in modified_item
                 ):
                     # Append to the clean bands list
-                    clean_bands_list.append(modified_item)
+                    cleaned_band_list.append(modified_item)
             dates = div_element.find(
                 "p", class_="has-text-align-center has-large-font-size"
             ).text.strip()
             dates = helpers.date_handler(dates)
-            print(dates)
+            event_json = {
+                "Venue": "Snug Harbor",
+                "Street": "1228 Gordon St",
+                "City": "Charlotte",
+                "State": "North Carolina",
+                "Long": "-80.813250",
+                "Lat": "35.219980",
+                "Capacity": "125",
+                "Date": dates,
+                "Bands": cleaned_band_list,
+            }
+            data[iteration_counter] = event_json
+            iteration_counter += 1
+        
+        return data
+    else: 
+        print('website not reachable.')
 
 
-scrape_snug("https://snugrock.com/")
+data = scrape_snug("https://snugrock.com/")
+helpers.write_dict_to_json(data)
