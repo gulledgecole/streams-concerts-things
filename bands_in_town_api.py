@@ -18,16 +18,18 @@
 import requests
 from google.cloud import secretmanager
 
-def get_key(): 
+
+def get_key():
     client = secretmanager.SecretManagerServiceClient()
     name = "projects/639888050178/secrets/bands-in-town/versions/1"
     response = client.access_secret_version(request={"name": name})
     payload = response.payload.data.decode("UTF-8")
-    
+
     return payload
 
+
 def reach_bit(artist, payload):
-    url =  f"https://rest.bandsintown.com/artists/The%20Thing/?app_id={payload}"
+    url = f"https://rest.bandsintown.com/artists/The%20Thing/?app_id={payload}"
     response = requests.get(url)
     if response.status_code == 200:
         print("Request successful!")

@@ -5,24 +5,26 @@ import json
 import inspect
 import os
 import re
+
 ## Need to add exception when year is not provided.
 
 
 def date_checker(dates):
     """Checks the date format, this will be updated as more websites do random things with their dates.
-        Thank god for GPT, I hate regex.
-        Return the value to be passed into the date handler, which formats the dates across all venues.
-        Super weird ones, such as:SUNDAYS, 6 PM – 2 AM aren't worth the time. """
+    Thank god for GPT, I hate regex.
+    Return the value to be passed into the date handler, which formats the dates across all venues.
+    Super weird ones, such as:SUNDAYS, 6 PM – 2 AM aren't worth the time."""
 
     date_patterns = [
-        r'\d{1,2}/\d{1,2}/\d{2,4}',  # Example: 12/31/2022
-        r'\d{1,2}-\d{1,2}-\d{2,4}',  # Example: 12-31-2022
-        r'\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{2,4}',  # Example: 12 Jan 2022
-        r'\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{2,4}',  # Example: 12 January 2022
-        r'(?:SUNDAY|MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY),\s+(?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d{1,2}',  # Example: WEDNESDAY, JANUARY 31
+        r"\d{1,2}/\d{1,2}/\d{2,4}",  # Example: 12/31/2022
+        r"\d{1,2}-\d{1,2}-\d{2,4}",  # Example: 12-31-2022
+        r"\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{2,4}",  # Example: 12 Jan 2022
+        r"\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{2,4}",  # Example: 12 January 2022
+        r"(?:SUNDAY|MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY),\s+(?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+\d{1,2}",  # Example: WEDNESDAY, JANUARY 31
     ]
 
     return any(re.search(pattern, dates, re.I) for pattern in date_patterns)
+
 
 def date_handler(dates):
     if date_checker(dates):
@@ -30,7 +32,7 @@ def date_handler(dates):
         datez = datez.strftime("%a, %b %d, %Y")
     else:
         datez = "xxx"
-    
+
     return datez
 
 
