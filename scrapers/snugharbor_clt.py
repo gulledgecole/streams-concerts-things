@@ -32,10 +32,11 @@ def scrape_snug(url):
                 ):
                     # Append to the clean bands list
                     clean_bands_list.append(modified_item)
-            print(clean_bands_list)
-            date = div_element.find(
+            dates = div_element.find(
                 "p", class_="has-text-align-center has-large-font-size"
             ).text.strip()
+            dates = helpers.date_handler(dates)
+            print(dates)
 
 
 scrape_snug("https://snugrock.com/")
