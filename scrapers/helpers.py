@@ -38,10 +38,8 @@ def date_handler(dates):
     if date_checker(dates):
         datez = parser.parse(dates)
         datez = datez.strftime("%a, %b %d, %Y")
-    else: 
+    else:
         datez = dates
-
-
 
     return datez
 
