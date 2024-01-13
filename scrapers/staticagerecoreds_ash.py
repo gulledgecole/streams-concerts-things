@@ -16,8 +16,10 @@ def scrape(url):
         data = {}
         iteration_counter = 1
         for div_element in div_elements:
-            bands = div_element.find('h2', class_="text-md md:text-2xl flex-2").text.split(' / ')
-            date = div_element.find('span', class_ = "").text
+            bands = div_element.find(
+                "h2", class_="text-md md:text-2xl flex-2"
+            ).text.split(" / ")
+            date = div_element.find("span", class_="").text
             date = helpers.date_handler(date)
             event_json = {
                 "Venue": "Static Age Records",
@@ -39,4 +41,3 @@ def scrape(url):
 
 data = scrape("https://www.staticagenc.com/events")
 helpers.write_dict_to_json(data)
-
