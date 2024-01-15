@@ -11,7 +11,6 @@ def scrape_snug(url):
     if data.status_code == 200:
         html_content = data.text
         soup = BeautifulSoup(html_content, "html.parser")
-
         div_elements = soup.find_all("div", class_="wp-block-media-text__content")
         data = {}
         iteration_counter = 1
