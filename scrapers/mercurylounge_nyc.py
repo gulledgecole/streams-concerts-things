@@ -1,8 +1,9 @@
 from imports import *
 
-# trying to scrape Jambase to see how it goes. 
+# trying to scrape Jambase to see how it goes.
 
 # Mercury lounge seems to up to date with it.
+
 
 def scrape(url):
     user_agents_list = [
@@ -14,21 +15,21 @@ def scrape(url):
     if data.status_code == 200:
         html_content = data.text
         soup = BeautifulSoup(html_content, "html.parser")
-        div_elements = soup.find_all('script', type='application/ld+json')
+        div_elements = soup.find_all("script", type="application/ld+json")
         for div_element in div_elements[2:20]:
             bands = []
             content = json.loads((div_element.text.strip()))
-            address = (content["location"]["address"]["streetAddress"])
-            city = (content["location"]["address"]["addressLocality"])
-            state = (content["location"]["address"]["addressRegion"])
+            address = content["location"]["address"]["streetAddress"]
+            city = content["location"]["address"]["addressLocality"]
+            state = content["location"]["address"]["addressRegion"]
             latitude = content["location"]["geo"]["latitude"]
             longitude = content["location"]["geo"]["longitude"]
 
-            for i in (content["performer"]):
-                bands.append(i['name'])
+            for i in content["performer"]:
+                bands.append(i["name"])
             print(f"{bands} are playing at {address}")
 
-        #print(div_elements)
+        # print(div_elements)
         data = {}
         iteration_counter = 1
 
