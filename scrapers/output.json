@@ -11,6 +11,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "10.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -74,6 +76,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "10.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -105,6 +109,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "30.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -138,6 +144,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "30.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -171,6 +179,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -234,6 +244,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -265,6 +277,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "18.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -332,6 +346,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "12.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -427,6 +443,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "22.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -492,6 +510,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "16.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -560,6 +580,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -591,6 +613,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -638,6 +662,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -669,6 +695,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "12.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -732,6 +760,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "12.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -763,6 +793,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -832,6 +864,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -866,6 +900,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -897,6 +933,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "12.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -905,9 +943,9 @@
         "url": "https://www.jambase.com/band/upper-wilds",
         "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
         "datePublished": "2018-10-12T18:38:15Z",
-        "dateModified": "2023-12-28T06:47:21Z",
+        "dateModified": "2024-01-15T21:35:46Z",
         "x-bandOrMusician": "band",
-        "x-numUpcomingEvents": 1,
+        "x-numUpcomingEvents": 2,
         "genre": [],
         "x-performanceDate": "2024-02-22",
         "x-performanceRank": 1,
@@ -964,6 +1002,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1043,6 +1083,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1122,6 +1164,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1153,6 +1197,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1216,6 +1262,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1247,6 +1295,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1296,6 +1346,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "17.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1349,6 +1401,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "20.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1412,6 +1466,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1445,6 +1501,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "17.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1479,6 +1537,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "15.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",
@@ -1512,6 +1572,8 @@
     "long": -73.9052,
     "lat": 40.6978,
     "capacity": 250,
+    "price": "35.00",
+    "seller": "See Tickets",
     "bands": [
       {
         "@type": "MusicGroup",

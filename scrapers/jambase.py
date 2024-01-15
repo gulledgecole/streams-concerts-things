@@ -17,6 +17,7 @@ def bandjam(url, payload):
         "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' # trying this
     ]
     params = {"expandUpcomingEvents": "true", "apikey": payload}
     response = requests.get(
@@ -37,6 +38,14 @@ def bandjam(url, payload):
     events = content["venue"]["events"]
     for event in events:
         performers = event.get("performer", [])
+        offers = event.get('offers', [])
+        for offer in offers:
+            try: 
+                price = offer['priceSpecification']['price']
+                seller = offer["seller"]["name"]
+            except:
+                continue
+
         event_json = {
             "venue": name,
             "street": address,
@@ -49,12 +58,14 @@ def bandjam(url, payload):
             "long": longitude,
             "lat": latitude,
             "capacity": capacity,
+            "price" : price, 
+            "seller" : seller,
             "bands": performers,
         }
         data.append(event_json)
     output_file_path = "output.json"
     with open(output_file_path, "w") as json_file:
-        json.dump(data, json_file, indent=2)
+         json.dump(data, json_file, indent=2)
 
     return response.json()
 
