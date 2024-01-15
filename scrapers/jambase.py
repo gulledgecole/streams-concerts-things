@@ -56,9 +56,6 @@ def bandjam(url, payload):
     with open(output_file_path, "w") as json_file:
         json.dump(data, json_file, indent=2)
 
-    # with open("content.json", 'w') as json_file:
-    #     json.dump(content, json_file, indent=2)
-
     return response.json()
 
 url = "https://www.jambase.com/jb-api/v1/venues/id/jambase:6231804"
