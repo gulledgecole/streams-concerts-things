@@ -20,6 +20,8 @@ def scrape(url):
             content = json.loads((div_element.text.strip()))
             for i in (content["performer"]):
                 bands.append(i['name'])
+            for j in (content["location"]): 
+                print(j)
             print(bands)
 
         #print(div_elements)
