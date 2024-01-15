@@ -1,0 +1,4064 @@
+{
+  "success": true,
+  "venue": {
+    "@type": "Venue",
+    "name": "TV Eye",
+    "identifier": "jambase:6231804",
+    "url": "https://www.jambase.com/venue/tv-eye",
+    "image": "",
+    "datePublished": "2019-12-18T20:42:11Z",
+    "dateModified": "2024-01-15T18:57:16Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1647 Weirfield Street",
+      "addressLocality": "Ridgewood",
+      "postalCode": "11385",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223238
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.6978,
+      "longitude": -73.9052
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://tveyenyc.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 250,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 31,
+    "events": [
+      {
+        "@type": "Concert",
+        "name": "Mess at TV Eye",
+        "identifier": "jambase:11465380",
+        "url": "https://www.jambase.com/show/mess-tv-eye-20240115",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-02T20:21:05Z",
+        "dateModified": "2024-01-02T20:21:24Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-15T20:00:00",
+        "endDate": "2024-01-15",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Mess Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11465384",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=580798&afflky=369NMM",
+            "datePublished": "2024-01-02T20:21:06Z",
+            "dateModified": "2024-01-02T20:21:06Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "10.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-02T20:21:06Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Mess",
+            "identifier": "jambase:3959298",
+            "url": "https://www.jambase.com/band/mess",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-02-08T16:51:16Z",
+            "dateModified": "2024-01-02T20:21:24Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-15",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Seven",
+            "identifier": "jambase:42574",
+            "url": "https://www.jambase.com/band/seven",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/04/seven-1-1480x832.png",
+            "datePublished": "2015-06-21T06:54:49Z",
+            "dateModified": "2024-01-02T20:21:24Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 11,
+            "genre": [],
+            "x-performanceDate": "2024-01-15",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Epic Beast",
+            "identifier": "jambase:11427296",
+            "url": "https://www.jambase.com/band/epic-beast",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-12-15T19:30:01Z",
+            "dateModified": "2024-01-02T20:21:24Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-15",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466977",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240116",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:00Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-16T21:00:00",
+        "endDate": "2024-01-16",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466979",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582510&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:00Z",
+            "dateModified": "2024-01-03T16:10:00Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:00Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-01-16",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "The Sun Ra Arkestra at TV Eye",
+        "identifier": "jambase:11410020",
+        "url": "https://www.jambase.com/show/the-sun-ra-arkestra-tv-eye-20240117",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-12T23:02:28Z",
+        "dateModified": "2023-12-28T05:12:35Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-17T20:00:00",
+        "endDate": "2024-01-17",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Sun Ra Arkestra Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11410022",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=579946&afflky=369NMM",
+            "datePublished": "2023-12-12T23:02:28Z",
+            "dateModified": "2023-12-12T23:02:28Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "30.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-12T23:02:28Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "The Sun Ra Arkestra Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11426193",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/the-sun-ra-arkestra-ridgewood-tickets-1-17-2024/event/152747784/",
+            "datePublished": "2023-12-15T18:03:06Z",
+            "dateModified": "2023-12-15T18:03:06Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-15T18:03:06Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "The Sun Ra Arkestra",
+            "identifier": "jambase:41172",
+            "url": "https://www.jambase.com/band/the-sun-ra-arkestra",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-06-21T06:47:14Z",
+            "dateModified": "2024-01-10T17:58:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 4,
+            "genre": [
+              "jazz"
+            ],
+            "x-performanceDate": "2024-01-17",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "The Sun Ra Arkestra at TV Eye",
+        "identifier": "jambase:11474208",
+        "url": "https://www.jambase.com/show/the-sun-ra-arkestra-tv-eye-20240119",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-05T17:45:48Z",
+        "dateModified": "2024-01-10T18:11:59Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-19T20:00:00",
+        "endDate": "2024-01-19",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Sun Ra Arkestra Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11474210",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582923&afflky=369NMM",
+            "datePublished": "2024-01-05T17:45:48Z",
+            "dateModified": "2024-01-05T17:45:48Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "30.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-05T17:45:48Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "The Sun Ra Arkestra Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11495635",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/the-sun-ra-arkestra-ridgewood-tickets-1-19-2024/event/152855362/",
+            "datePublished": "2024-01-10T18:11:59Z",
+            "dateModified": "2024-01-10T18:11:59Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2024-01-10T18:11:59Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "The Sun Ra Arkestra",
+            "identifier": "jambase:41172",
+            "url": "https://www.jambase.com/band/the-sun-ra-arkestra",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-06-21T06:47:14Z",
+            "dateModified": "2024-01-10T17:58:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 4,
+            "genre": [
+              "jazz"
+            ],
+            "x-performanceDate": "2024-01-19",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Shilpa Ray at TV Eye",
+        "identifier": "jambase:11273663",
+        "url": "https://www.jambase.com/show/shilpa-ray-tv-eye-20240120",
+        "image": "https://www.jambase.com/wp-content/uploads/2018/04/shilpa-ray-profile-1480x832.jpg",
+        "sameAs": [],
+        "datePublished": "2023-11-10T16:09:53Z",
+        "dateModified": "2023-12-28T05:28:46Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-20T20:00:00",
+        "endDate": "2024-01-20",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Shilpa Ray Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11273667",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=575975&afflky=369NMM",
+            "datePublished": "2023-11-10T16:09:54Z",
+            "dateModified": "2023-11-10T16:09:54Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-10T16:09:54Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Shilpa Ray",
+            "identifier": "jambase:4170126",
+            "url": "https://www.jambase.com/band/shilpa-ray",
+            "image": "https://www.jambase.com/wp-content/uploads/2018/04/shilpa-ray-profile-1480x832.jpg",
+            "datePublished": "2018-04-06T12:32:49Z",
+            "dateModified": "2023-12-28T05:31:56Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-20",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Shop Talk",
+            "identifier": "jambase:5417314",
+            "url": "https://www.jambase.com/band/shop-talk",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-03-28T13:52:23Z",
+            "dateModified": "2023-12-28T05:31:56Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-20",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Calamity Glamour",
+            "identifier": "jambase:9665455",
+            "url": "https://www.jambase.com/band/calamity-glamour",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2022-12-28T17:08:47Z",
+            "dateModified": "2023-12-28T05:31:56Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-20",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466980",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240123",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:01Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-23T21:00:00",
+        "endDate": "2024-01-23",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466982",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582511&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:01Z",
+            "dateModified": "2024-01-03T16:10:01Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:01Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-01-23",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Babehoven at TV Eye",
+        "identifier": "jambase:11264324",
+        "url": "https://www.jambase.com/show/babehoven-tv-eye-20240125",
+        "image": "https://www.jambase.com/wp-content/uploads/2023/07/babehoven-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-11-08T16:02:59Z",
+        "dateModified": "2023-12-28T04:54:49Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-25T20:00:00",
+        "endDate": "2024-01-25",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Babehoven Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11264328",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=575567&afflky=369NMM",
+            "datePublished": "2023-11-08T16:02:59Z",
+            "dateModified": "2023-11-08T16:02:59Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "18.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-08T16:02:59Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Babehoven",
+            "identifier": "jambase:3816780",
+            "url": "https://www.jambase.com/band/babehoven",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/07/babehoven-1480x832.png",
+            "datePublished": "2017-11-18T00:24:01Z",
+            "dateModified": "2023-12-28T05:15:03Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [
+              "folk",
+              "indie",
+              "punk"
+            ],
+            "x-performanceDate": "2024-01-25",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Bloomsday",
+            "identifier": "jambase:9097607",
+            "url": "https://www.jambase.com/band/bloomsday",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/05/bloomsday-1480x832.png",
+            "datePublished": "2022-08-08T15:00:56Z",
+            "dateModified": "2023-12-28T05:15:03Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 5,
+            "genre": [],
+            "x-performanceDate": "2024-01-25",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Richard Orofino",
+            "identifier": "jambase:9804625",
+            "url": "https://www.jambase.com/band/richard-orofino",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-01-25T18:01:07Z",
+            "dateModified": "2023-12-28T05:15:03Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-25",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Smith Taylor at TV Eye",
+        "identifier": "jambase:11470082",
+        "url": "https://www.jambase.com/show/smith-taylor-tv-eye-20240126",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-04T15:58:52Z",
+        "dateModified": "2024-01-15T19:13:58Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-26T20:00:00",
+        "endDate": "2024-01-26",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Smith Taylor Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11470086",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582628&afflky=369NMM",
+            "datePublished": "2024-01-04T15:58:53Z",
+            "dateModified": "2024-01-04T15:58:53Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-04T15:58:53Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Smith Taylor Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11495871",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/smith-taylor-ridgewood-tickets-1-26-2024/event/152849961/",
+            "datePublished": "2024-01-10T18:14:02Z",
+            "dateModified": "2024-01-10T18:14:02Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2024-01-10T18:14:02Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Smith Taylor",
+            "identifier": "jambase:5256326",
+            "url": "https://www.jambase.com/band/smith-taylor",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-02-07T20:24:30Z",
+            "dateModified": "2024-01-04T15:59:11Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-26",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Nelson Bandela",
+            "identifier": "jambase:4067867",
+            "url": "https://www.jambase.com/band/nelson-bandela",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-03-13T14:45:12Z",
+            "dateModified": "2024-01-09T14:12:50Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-26",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "B.oone",
+            "identifier": "jambase:11469971",
+            "url": "https://www.jambase.com/band/b-oone",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2024-01-04T15:57:27Z",
+            "dateModified": "2024-01-04T15:59:11Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-26",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Binky Griptite",
+            "identifier": "jambase:242587",
+            "url": "https://www.jambase.com/band/binky-griptite",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-15T02:27:38Z",
+            "dateModified": "2024-01-15T19:13:57Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-26",
+            "x-performanceRank": 4,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Eavesdrop",
+            "identifier": "jambase:5464395",
+            "url": "https://www.jambase.com/band/eavesdrop",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-04-09T22:31:53Z",
+            "dateModified": "2024-01-15T19:13:58Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-26",
+            "x-performanceRank": 5,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Riverboat Gamblers at TV Eye",
+        "identifier": "jambase:11255912",
+        "url": "https://www.jambase.com/show/riverboat-gamblers-tv-eye-20240127",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-11-07T15:54:46Z",
+        "dateModified": "2023-12-28T05:08:18Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-27T20:00:00",
+        "endDate": "2024-01-27",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Riverboat Gamblers Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11255916",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=575309&afflky=369NMM",
+            "datePublished": "2023-11-07T15:54:47Z",
+            "dateModified": "2023-11-07T15:54:47Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "22.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-07T15:54:47Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Riverboat Gamblers",
+            "identifier": "jambase:44699",
+            "url": "https://www.jambase.com/band/riverboat-gamblers",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-06-21T08:45:05Z",
+            "dateModified": "2024-01-15T18:03:39Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 4,
+            "genre": [
+              "indie"
+            ],
+            "x-performanceDate": "2024-01-27",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Wyldlife",
+            "identifier": "jambase:294443",
+            "url": "https://www.jambase.com/band/wyldlife",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-16T05:37:48Z",
+            "dateModified": "2024-01-11T17:34:47Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [],
+            "x-performanceDate": "2024-01-27",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Ravagers",
+            "identifier": "jambase:4375212",
+            "url": "https://www.jambase.com/band/ravagers",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-06-14T18:47:17Z",
+            "dateModified": "2023-12-28T05:08:55Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [],
+            "x-performanceDate": "2024-01-27",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Saintseneca at TV Eye",
+        "identifier": "jambase:11443669",
+        "url": "https://www.jambase.com/show/saintseneca-tv-eye-20240128",
+        "image": "https://www.jambase.com/wp-content/uploads/2023/02/saintseneca-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-22T15:49:44Z",
+        "dateModified": "2024-01-15T18:57:16Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-01-28T20:00:00",
+        "endDate": "2024-01-28",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Saintseneca Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11443671",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=581365&afflky=369NMM",
+            "datePublished": "2023-12-22T15:49:44Z",
+            "dateModified": "2023-12-22T15:49:44Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "16.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-22T15:49:44Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Saintseneca",
+            "identifier": "jambase:51577",
+            "url": "https://www.jambase.com/band/saintseneca",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/02/saintseneca-1480x832.png",
+            "datePublished": "2015-06-22T01:11:28Z",
+            "dateModified": "2024-01-08T16:05:43Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [
+              "folk",
+              "indie",
+              "indie-rock",
+              "rock"
+            ],
+            "x-performanceDate": "2024-01-28",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Local Motion",
+            "identifier": "jambase:5630792",
+            "url": "https://www.jambase.com/band/local-motion",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-05-31T20:14:58Z",
+            "dateModified": "2024-01-15T18:57:15Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-01-28",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Looms",
+            "identifier": "jambase:3964463",
+            "url": "https://www.jambase.com/band/looms",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-02-11T15:49:24Z",
+            "dateModified": "2024-01-15T18:57:16Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [],
+            "x-performanceDate": "2024-01-28",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Mom Rock at TV Eye",
+        "identifier": "jambase:11439062",
+        "url": "https://www.jambase.com/show/mom-rock-tv-eye-20240201",
+        "image": "https://www.jambase.com/wp-content/uploads/2023/02/mom-rock-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-20T16:32:54Z",
+        "dateModified": "2023-12-28T04:53:44Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-01T20:00:00",
+        "endDate": "2024-02-01",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Mom Rock Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11439064",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=581156&afflky=369NMM",
+            "datePublished": "2023-12-20T16:32:54Z",
+            "dateModified": "2023-12-20T16:32:54Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-20T16:32:54Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Mom Rock",
+            "identifier": "jambase:6390744",
+            "url": "https://www.jambase.com/band/mom-rock",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/02/mom-rock-1480x832.png",
+            "datePublished": "2020-01-27T20:53:26Z",
+            "dateModified": "2024-01-08T07:07:13Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-02-01",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "The Thing at TV Eye",
+        "identifier": "jambase:11376393",
+        "url": "https://www.jambase.com/show/the-thing-tv-eye-20240202",
+        "image": "https://www.jambase.com/wp-content/uploads/2023/09/the-thing-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-05T19:07:16Z",
+        "dateModified": "2024-01-09T16:45:29Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-02T20:00:00",
+        "endDate": "2024-02-02",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "The Thing Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11376395",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=578533&afflky=369NMM",
+            "datePublished": "2023-12-05T19:07:17Z",
+            "dateModified": "2023-12-05T19:07:17Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-05T19:07:17Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "The Thing Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11397173",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/the-thing-ridgewood-tickets-2-2-2024/event/152707537/",
+            "datePublished": "2023-12-11T14:32:38Z",
+            "dateModified": "2023-12-11T14:32:38Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-11T14:32:38Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "The Thing",
+            "identifier": "jambase:3754557",
+            "url": "https://www.jambase.com/band/the-thing",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/09/the-thing-1480x832.png",
+            "datePublished": "2017-11-01T14:47:03Z",
+            "dateModified": "2024-01-09T14:57:30Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 21,
+            "genre": [],
+            "x-performanceDate": "2024-02-02",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "The Simplicity",
+            "identifier": "jambase:11144408",
+            "url": "https://www.jambase.com/band/the-simplicity",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-10-11T20:09:14Z",
+            "dateModified": "2024-01-09T16:45:29Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-02",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466983",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240206",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:02Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-06T21:00:00",
+        "endDate": "2024-02-06",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466985",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582512&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:02Z",
+            "dateModified": "2024-01-03T16:10:03Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:02Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-02-06",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Pink Mexico at TV Eye",
+        "identifier": "jambase:11500197",
+        "url": "https://www.jambase.com/show/pink-mexico-tv-eye-20240208",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-11T15:44:16Z",
+        "dateModified": "2024-01-15T17:13:01Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-08T20:00:00",
+        "endDate": "2024-02-08",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Pink Mexico Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11500201",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=584098&afflky=369NMM",
+            "datePublished": "2024-01-11T15:44:17Z",
+            "dateModified": "2024-01-11T15:44:17Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-11T15:44:17Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Pink Mexico Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11510654",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/pink-mexico-ridgewood-tickets-2-8-2024/event/152874372/",
+            "datePublished": "2024-01-15T17:13:01Z",
+            "dateModified": "2024-01-15T17:13:01Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2024-01-15T17:13:01Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Pink Mexico",
+            "identifier": "jambase:4825025",
+            "url": "https://www.jambase.com/band/pink-mexico",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-10-26T13:44:33Z",
+            "dateModified": "2024-01-11T15:44:25Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-08",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Substitute",
+            "identifier": "jambase:4365190",
+            "url": "https://www.jambase.com/band/substitute",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-06-12T15:12:56Z",
+            "dateModified": "2024-01-11T15:44:25Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-08",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Aux Blood",
+            "identifier": "jambase:8356256",
+            "url": "https://www.jambase.com/band/aux-blood",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2022-01-31T16:42:31Z",
+            "dateModified": "2024-01-11T15:44:25Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-08",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466986",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240213",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:03Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-13T21:00:00",
+        "endDate": "2024-02-13",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466988",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582513&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:03Z",
+            "dateModified": "2024-01-03T16:10:03Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:03Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-02-13",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Escuela Grind at TV Eye",
+        "identifier": "jambase:11330445",
+        "url": "https://www.jambase.com/show/escuela-grind-tv-eye-20240216",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-11-27T17:25:51Z",
+        "dateModified": "2023-12-28T05:16:52Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-16T20:00:00",
+        "endDate": "2024-02-16",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Escuela Grind Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11330449",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=577558&afflky=369NMM",
+            "datePublished": "2023-11-27T17:25:52Z",
+            "dateModified": "2023-11-27T17:25:52Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-27T17:25:52Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Escuela Grind Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11384864",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/escuela-grind-ridgewood-tickets-2-16-2024/event/152657251/",
+            "datePublished": "2023-12-06T18:40:05Z",
+            "dateModified": "2023-12-06T18:40:05Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-06T18:40:05Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Escuela Grind",
+            "identifier": "jambase:7849869",
+            "url": "https://www.jambase.com/band/escuela-grind",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2021-08-24T15:30:54Z",
+            "dateModified": "2024-01-15T18:10:32Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 15,
+            "genre": [
+              "metal",
+              "punk"
+            ],
+            "x-performanceDate": "2024-02-16",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Take Offense",
+            "identifier": "jambase:297097",
+            "url": "https://www.jambase.com/band/take-offense",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-16T06:27:45Z",
+            "dateModified": "2024-01-15T15:48:57Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [
+              "metal",
+              "punk"
+            ],
+            "x-performanceDate": "2024-02-16",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Brat",
+            "identifier": "jambase:6204344",
+            "url": "https://www.jambase.com/band/brat",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-12-10T20:00:01Z",
+            "dateModified": "2023-12-28T06:29:04Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-16",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Mindforce at TV Eye",
+        "identifier": "jambase:11395738",
+        "url": "https://www.jambase.com/show/mindforce-tv-eye-20240217",
+        "image": "https://www.jambase.com/wp-content/uploads/2023/01/mindforce-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-08T19:31:33Z",
+        "dateModified": "2023-12-28T05:01:03Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-17T20:00:00",
+        "endDate": "2024-02-17",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Mindforce Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11395740",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=577902&afflky=369NMM",
+            "datePublished": "2023-12-08T19:31:34Z",
+            "dateModified": "2023-12-08T19:31:34Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-08T19:31:34Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Mindforce Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11433247",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/mindforce-ridgewood-tickets-2-17-2024/event/152726267/",
+            "datePublished": "2023-12-18T20:14:44Z",
+            "dateModified": "2023-12-18T20:14:44Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-18T20:14:44Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Mindforce",
+            "identifier": "jambase:3939759",
+            "url": "https://www.jambase.com/band/mindforce",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/01/mindforce-1480x832.png",
+            "datePublished": "2018-02-03T23:35:12Z",
+            "dateModified": "2024-01-06T10:48:40Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 5,
+            "genre": [
+              "metal",
+              "punk"
+            ],
+            "x-performanceDate": "2024-02-17",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466989",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240220",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:04Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-20T21:00:00",
+        "endDate": "2024-02-20",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466991",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582514&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:04Z",
+            "dateModified": "2024-01-03T16:10:04Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:04Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-02-20",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Upper Wilds at TV Eye",
+        "identifier": "jambase:11422398",
+        "url": "https://www.jambase.com/show/upper-wilds-tv-eye-20240222",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-15T13:39:19Z",
+        "dateModified": "2024-01-04T20:14:29Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-22T20:00:00",
+        "endDate": "2024-02-22",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Upper Wilds Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11422401",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=580637&afflky=369NMM",
+            "datePublished": "2023-12-15T13:39:20Z",
+            "dateModified": "2023-12-15T13:39:20Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "12.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-15T13:39:20Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Upper Wilds Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11471982",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/a-place-to-bury-strangers-ridgewood-tickets-2-22-2024/event/152827756/",
+            "datePublished": "2024-01-04T20:14:29Z",
+            "dateModified": "2024-01-04T20:14:29Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2024-01-04T20:14:29Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Upper Wilds",
+            "identifier": "jambase:4790978",
+            "url": "https://www.jambase.com/band/upper-wilds",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-10-12T18:38:15Z",
+            "dateModified": "2023-12-28T06:47:21Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-22",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Channel Vessel",
+            "identifier": "jambase:11205891",
+            "url": "https://www.jambase.com/band/channel-vessel",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-10-25T18:51:10Z",
+            "dateModified": "2023-12-28T06:47:21Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-22",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "A Place to Bury Strangers",
+            "identifier": "jambase:45214",
+            "url": "https://www.jambase.com/band/a-place-to-bury-strangers",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/01/a-place-to-bury-strangers-1480x832.png",
+            "datePublished": "2015-06-21T08:53:06Z",
+            "dateModified": "2024-01-14T22:35:27Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 11,
+            "genre": [
+              "edm",
+              "indie",
+              "rock"
+            ],
+            "x-performanceDate": "2024-02-22",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Haram at TV Eye",
+        "identifier": "jambase:11387342",
+        "url": "https://www.jambase.com/show/haram-tv-eye-20240223",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-06T21:25:18Z",
+        "dateModified": "2023-12-28T05:24:40Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-23T20:00:00",
+        "endDate": "2024-02-23",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Haram Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11387347",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=579232&afflky=369NMM",
+            "datePublished": "2023-12-06T21:25:18Z",
+            "dateModified": "2023-12-06T21:25:19Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-06T21:25:18Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Haram",
+            "identifier": "jambase:3297988",
+            "url": "https://www.jambase.com/band/haram",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2017-06-06T23:50:46Z",
+            "dateModified": "2024-01-12T18:03:02Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-23",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Taqbir",
+            "identifier": "jambase:10737528",
+            "url": "https://www.jambase.com/band/taqbir",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-07-11T18:15:47Z",
+            "dateModified": "2023-12-28T20:00:23Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [],
+            "x-performanceDate": "2024-02-23",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Kaleidoscope",
+            "identifier": "jambase:5326810",
+            "url": "https://www.jambase.com/band/kaleidoscope",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-02-28T19:58:44Z",
+            "dateModified": "2023-12-28T06:47:50Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-23",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Mirage",
+            "identifier": "jambase:256657",
+            "url": "https://www.jambase.com/band/mirage",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-15T06:03:45Z",
+            "dateModified": "2023-12-28T05:03:06Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 4,
+            "genre": [],
+            "x-performanceDate": "2024-02-23",
+            "x-performanceRank": 4,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Kontusion at TV Eye",
+        "identifier": "jambase:11427601",
+        "url": "https://www.jambase.com/show/kontusion-tv-eye-20240225",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-15T19:48:20Z",
+        "dateModified": "2023-12-28T05:25:00Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-25T20:00:00",
+        "endDate": "2024-02-25",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Kontusion Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11427606",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=580753&afflky=369NMM",
+            "datePublished": "2023-12-15T19:48:22Z",
+            "dateModified": "2023-12-15T19:48:22Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-15T19:48:22Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Kontusion",
+            "identifier": "jambase:11114087",
+            "url": "https://www.jambase.com/band/kontusion",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-10-05T14:49:10Z",
+            "dateModified": "2023-12-28T08:26:38Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [],
+            "x-performanceDate": "2024-02-25",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Infandus",
+            "identifier": "jambase:8224583",
+            "url": "https://www.jambase.com/band/infandus",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2021-12-19T23:30:26Z",
+            "dateModified": "2023-12-28T08:26:38Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-25",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Vermindog",
+            "identifier": "jambase:11427287",
+            "url": "https://www.jambase.com/band/vermindog",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-12-15T19:26:36Z",
+            "dateModified": "2023-12-28T08:26:38Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-25",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Shatter",
+            "identifier": "jambase:5071070",
+            "url": "https://www.jambase.com/band/shatter",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-12-06T20:29:30Z",
+            "dateModified": "2023-12-28T08:26:38Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-02-25",
+            "x-performanceRank": 4,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Anna Copa Cabanna at TV Eye",
+        "identifier": "jambase:11466992",
+        "url": "https://www.jambase.com/show/anna-copa-cabanna-tv-eye-20240227",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-03T16:10:04Z",
+        "dateModified": "2024-01-03T16:10:32Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-02-27T21:00:00",
+        "endDate": "2024-02-27",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Anna Copa Cabanna Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11466994",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582515&afflky=369NMM",
+            "datePublished": "2024-01-03T16:10:05Z",
+            "dateModified": "2024-01-03T16:10:05Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-03T16:10:05Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Anna Copa Cabanna",
+            "identifier": "jambase:9945889",
+            "url": "https://www.jambase.com/band/anna-copa-cabanna",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-02-22T00:42:27Z",
+            "dateModified": "2024-01-11T07:07:10Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [],
+            "x-performanceDate": "2024-02-27",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Mother Feather at TV Eye",
+        "identifier": "jambase:11476311",
+        "url": "https://www.jambase.com/show/mother-feather-tv-eye-20240301",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2024-01-05T20:27:11Z",
+        "dateModified": "2024-01-05T20:27:11Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-03-01T20:00:00",
+        "endDate": "2024-03-01",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Mother Feather Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11476315",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=583090&afflky=369NMM",
+            "datePublished": "2024-01-05T20:27:12Z",
+            "dateModified": "2024-01-05T20:27:12Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2024-01-05T20:27:12Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Mother Feather",
+            "identifier": "jambase:194608",
+            "url": "https://www.jambase.com/band/mother-feather",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-16T01:33:24Z",
+            "dateModified": "2024-01-05T20:27:12Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-03-01",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Kaye",
+            "identifier": "jambase:4308414",
+            "url": "https://www.jambase.com/band/kaye",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-05-22T13:13:28Z",
+            "dateModified": "2024-01-05T20:27:12Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-03-01",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Slyboots",
+            "identifier": "jambase:4059766",
+            "url": "https://www.jambase.com/band/slyboots",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-03-10T19:09:42Z",
+            "dateModified": "2024-01-05T20:27:12Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-03-01",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Omni at TV Eye",
+        "identifier": "jambase:11255973",
+        "url": "https://www.jambase.com/show/omni-tv-eye-20240302",
+        "image": "https://www.jambase.com/wp-content/uploads/2019/10/omni-ticketmaster-ram-1480x832.jpg",
+        "sameAs": [],
+        "datePublished": "2023-11-07T15:55:06Z",
+        "dateModified": "2023-12-28T05:01:13Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-03-02T20:00:00",
+        "endDate": "2024-03-02",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Omni Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11255975",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=575272&afflky=369NMM",
+            "datePublished": "2023-11-07T15:55:07Z",
+            "dateModified": "2023-11-07T15:55:07Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-07T15:55:07Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Omni",
+            "identifier": "jambase:2437571",
+            "url": "https://www.jambase.com/band/omni",
+            "image": "https://www.jambase.com/wp-content/uploads/2019/10/omni-ticketmaster-ram-1480x832.jpg",
+            "datePublished": "2016-05-23T20:06:29Z",
+            "dateModified": "2024-01-13T12:43:09Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 17,
+            "genre": [],
+            "x-performanceDate": "2024-03-02",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Video Age at TV Eye",
+        "identifier": "jambase:11173492",
+        "url": "https://www.jambase.com/show/video-age-tv-eye-20240309",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-10-18T16:52:29Z",
+        "dateModified": "2023-12-28T04:58:15Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-03-09T20:00:00",
+        "endDate": "2024-03-09",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Video Age Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11173494",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=572943&afflky=369NMM",
+            "datePublished": "2023-10-18T16:52:30Z",
+            "dateModified": "2023-10-18T16:52:30Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-10-18T16:52:30Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Video Age Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11194634",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/video-age-ridgewood-tickets-3-9-2024/event/152482472/",
+            "datePublished": "2023-10-23T19:52:20Z",
+            "dateModified": "2023-10-23T19:52:20Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-10-23T19:52:20Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Video Age",
+            "identifier": "jambase:5067231",
+            "url": "https://www.jambase.com/band/video-age",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-12-05T20:37:19Z",
+            "dateModified": "2024-01-08T13:45:25Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 15,
+            "genre": [
+              "indie"
+            ],
+            "x-performanceDate": "2024-03-09",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Sean Nicholas Savage",
+            "identifier": "jambase:290933",
+            "url": "https://www.jambase.com/band/sean-nicholas-savage",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/04/sean-nicholas-savage-1480x832.png",
+            "datePublished": "2015-07-16T04:19:23Z",
+            "dateModified": "2024-01-10T18:06:27Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 7,
+            "genre": [],
+            "x-performanceDate": "2024-03-09",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Elephant Stone at TV Eye",
+        "identifier": "jambase:11139191",
+        "url": "https://www.jambase.com/show/elephant-stone-tv-eye-20240326",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-10-11T15:27:13Z",
+        "dateModified": "2023-12-28T05:22:00Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-03-26T20:00:00",
+        "endDate": "2024-03-26",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Elephant Stone Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11139193",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=572185&afflky=369NMM",
+            "datePublished": "2023-10-11T15:27:14Z",
+            "dateModified": "2023-10-11T15:27:14Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "17.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-10-11T15:27:14Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Elephant Stone Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11169539",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/elephant-stone-ridgewood-tickets-3-26-2024/event/152441577/",
+            "datePublished": "2023-10-17T19:58:34Z",
+            "dateModified": "2023-10-17T19:58:34Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-10-17T19:58:34Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Elephant Stone",
+            "identifier": "jambase:290768",
+            "url": "https://www.jambase.com/band/elephant-stone",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-16T04:16:13Z",
+            "dateModified": "2024-01-06T20:30:51Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [
+              "indie",
+              "rock"
+            ],
+            "x-performanceDate": "2024-03-26",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Evolfo",
+            "identifier": "jambase:3774125",
+            "url": "https://www.jambase.com/band/evolfo",
+            "image": "https://www.jambase.com/wp-content/uploads/2023/12/evolfo-1480x832.png",
+            "datePublished": "2017-11-07T19:14:11Z",
+            "dateModified": "2023-12-28T09:04:12Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 5,
+            "genre": [
+              "indie",
+              "rock"
+            ],
+            "x-performanceDate": "2024-03-26",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Quest Master at TV Eye",
+        "identifier": "jambase:11459173",
+        "url": "https://www.jambase.com/show/quest-master-tv-eye-20240327",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-29T16:24:25Z",
+        "dateModified": "2024-01-03T21:03:41Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-03-27T20:00:00",
+        "endDate": "2024-03-27",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Quest Master Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11459177",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=582021&afflky=369NMM",
+            "datePublished": "2023-12-29T16:24:26Z",
+            "dateModified": "2023-12-29T16:24:26Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "20.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-29T16:24:26Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Quest Master Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11469411",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/quest-master-ridgewood-tickets-3-27-2024/event/152827194/",
+            "datePublished": "2024-01-03T21:03:40Z",
+            "dateModified": "2024-01-03T21:03:40Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2024-01-03T21:03:40Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Quest Master",
+            "identifier": "jambase:11426457",
+            "url": "https://www.jambase.com/band/quest-master",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-12-15T18:18:46Z",
+            "dateModified": "2024-01-03T22:00:11Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [],
+            "x-performanceDate": "2024-03-27",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Putrid Marsh",
+            "identifier": "jambase:10965699",
+            "url": "https://www.jambase.com/band/putrid-marsh",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2023-09-01T00:26:20Z",
+            "dateModified": "2024-01-03T22:00:11Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-03-27",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Scythe",
+            "identifier": "jambase:5060785",
+            "url": "https://www.jambase.com/band/scythe",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-12-04T21:40:44Z",
+            "dateModified": "2024-01-03T22:00:11Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-03-27",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Discovery Zone at TV Eye",
+        "identifier": "jambase:11373569",
+        "url": "https://www.jambase.com/show/discovery-zone-tv-eye-20240403",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-05T16:48:34Z",
+        "dateModified": "2023-12-28T05:22:40Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-04-03T20:00:00",
+        "endDate": "2024-04-03",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Discovery Zone Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11373571",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=578465&afflky=369NMM",
+            "datePublished": "2023-12-05T16:48:35Z",
+            "dateModified": "2023-12-05T16:48:35Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-05T16:48:35Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Discovery Zone",
+            "identifier": "jambase:8673376",
+            "url": "https://www.jambase.com/band/discovery-zone",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2022-04-15T16:55:36Z",
+            "dateModified": "2023-12-28T09:06:35Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 6,
+            "genre": [
+              "indie"
+            ],
+            "x-performanceDate": "2024-04-03",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "A Beacon School at TV Eye",
+        "identifier": "jambase:11387404",
+        "url": "https://www.jambase.com/show/a-beacon-school-tv-eye-20240414",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-06T21:27:04Z",
+        "dateModified": "2023-12-28T04:58:15Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-04-14T20:00:00",
+        "endDate": "2024-04-14",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "A Beacon School Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11387406",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=579229&afflky=369NMM",
+            "datePublished": "2023-12-06T21:27:04Z",
+            "dateModified": "2023-12-06T21:27:04Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "17.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-06T21:27:04Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "A Beacon School Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11397189",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/a-beacon-school-ridgewood-tickets-4-14-2024/event/152707546/",
+            "datePublished": "2023-12-11T14:32:40Z",
+            "dateModified": "2023-12-11T14:32:40Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-11T14:32:40Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "A Beacon School",
+            "identifier": "jambase:5512434",
+            "url": "https://www.jambase.com/band/a-beacon-school",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-04-25T01:01:15Z",
+            "dateModified": "2023-12-28T07:51:08Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [
+              "indie",
+              "rock"
+            ],
+            "x-performanceDate": "2024-04-14",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Eric Slick at TV Eye",
+        "identifier": "jambase:11348462",
+        "url": "https://www.jambase.com/show/eric-slick-tv-eye-20240426",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-11-30T00:20:30Z",
+        "dateModified": "2023-12-28T05:21:24Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-04-26T20:00:00",
+        "endDate": "2024-04-26",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Eric Slick Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11348464",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=577300&afflky=369NMM",
+            "datePublished": "2023-11-30T00:20:30Z",
+            "dateModified": "2023-11-30T00:20:30Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "15.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-11-30T00:20:30Z",
+            "x-spansDays": 1
+          },
+          {
+            "@type": "Offer",
+            "name": "Eric Slick Ridgewood Tickets on StubHub",
+            "identifier": "jambase:11384782",
+            "url": "https://prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/eric-slick-ridgewood-tickets-4-26-2024/event/152677186/",
+            "datePublished": "2023-12-06T18:39:20Z",
+            "dateModified": "2023-12-06T18:39:20Z",
+            "category": "ticketingLinkSecondary",
+            "priceSpecification": {},
+            "seller": {
+              "@type": "Organization",
+              "name": "StubHub",
+              "identifier": "stubhub",
+              "disambiguatingDescription": "eventTicketVendorSecondary"
+            },
+            "validFrom": "2023-12-06T18:39:20Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Eric Slick",
+            "identifier": "jambase:271111",
+            "url": "https://www.jambase.com/band/eric-slick",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-15T19:00:03Z",
+            "dateModified": "2023-12-28T14:56:52Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 10,
+            "genre": [
+              "indie"
+            ],
+            "x-performanceDate": "2024-04-26",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      },
+      {
+        "@type": "Concert",
+        "name": "Ahab at TV Eye",
+        "identifier": "jambase:11443975",
+        "url": "https://www.jambase.com/show/ahab-tv-eye-20240523",
+        "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+        "sameAs": [],
+        "datePublished": "2023-12-22T16:09:54Z",
+        "dateModified": "2023-12-28T04:56:00Z",
+        "eventStatus": "scheduled",
+        "startDate": "2024-05-23T19:00:00",
+        "endDate": "2024-05-23",
+        "previousStartDate": "",
+        "doorTime": "",
+        "location": {
+          "@type": "Venue",
+          "name": "TV Eye",
+          "identifier": "jambase:6231804",
+          "url": "https://www.jambase.com/venue/tv-eye",
+          "image": "",
+          "datePublished": "2019-12-18T20:42:11Z",
+          "dateModified": "2024-01-15T18:57:16Z",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1647 Weirfield Street",
+            "addressLocality": "Ridgewood",
+            "postalCode": "11385",
+            "addressRegion": {
+              "@type": "State",
+              "identifier": "US-NY",
+              "name": "New York",
+              "alternateName": "NY"
+            },
+            "addressCountry": {
+              "@type": "Country",
+              "identifier": "US",
+              "name": "United States",
+              "alternateName": "USA"
+            },
+            "x-streetAddress2": "",
+            "x-timezone": "America/New_York",
+            "x-jamBaseMetroId": 1,
+            "x-jamBaseCityId": 4223238
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.6978,
+            "longitude": -73.9052
+          }
+        },
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Ahab Ridgewood Tickets on See Tickets",
+            "identifier": "jambase:11443981",
+            "url": "http://www.seetickets.us/wafform.aspx?_act=refevent&_pky=581136&afflky=369NMM",
+            "datePublished": "2023-12-22T16:09:54Z",
+            "dateModified": "2023-12-22T16:09:54Z",
+            "category": "ticketingLinkPrimary",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "",
+              "maxPrice": "",
+              "price": "35.00",
+              "priceCurrency": "USD"
+            },
+            "seller": {
+              "@type": "Organization",
+              "name": "See Tickets",
+              "identifier": "see-tickets",
+              "disambiguatingDescription": "eventTicketVendorPrimary"
+            },
+            "validFrom": "2023-12-22T16:09:54Z",
+            "x-spansDays": 1
+          }
+        ],
+        "performer": [
+          {
+            "@type": "MusicGroup",
+            "name": "Ahab",
+            "identifier": "jambase:288542",
+            "url": "https://www.jambase.com/band/ahab",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2015-07-16T03:36:10Z",
+            "dateModified": "2023-12-28T09:07:37Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [
+              "metal"
+            ],
+            "x-performanceDate": "2024-05-23",
+            "x-performanceRank": 1,
+            "x-isHeadliner": true,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Aura Noir",
+            "identifier": "jambase:281493",
+            "url": "https://www.jambase.com/band/aura-noir",
+            "image": "https://www.jambase.com/wp-content/uploads/2017/02/aura-noir-aura-noir-fc898e64-049b-448b-9c6b-99490f3a1613_153501_TABLET_LANDSCAPE_16_9-1480x832.jpg",
+            "datePublished": "2015-07-16T01:33:44Z",
+            "dateModified": "2023-12-30T16:00:22Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 3,
+            "genre": [
+              "metal"
+            ],
+            "x-performanceDate": "2024-05-23",
+            "x-performanceRank": 2,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Deathhammer",
+            "identifier": "jambase:8380415",
+            "url": "https://www.jambase.com/band/deathhammer",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2022-02-05T18:55:52Z",
+            "dateModified": "2023-12-28T09:07:37Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 2,
+            "genre": [],
+            "x-performanceDate": "2024-05-23",
+            "x-performanceRank": 3,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Aeviterne",
+            "identifier": "jambase:4256724",
+            "url": "https://www.jambase.com/band/aeviterne",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2018-05-04T16:49:30Z",
+            "dateModified": "2023-12-28T09:07:37Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [
+              "metal"
+            ],
+            "x-performanceDate": "2024-05-23",
+            "x-performanceRank": 4,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          },
+          {
+            "@type": "MusicGroup",
+            "name": "Ordeals",
+            "identifier": "jambase:5795108",
+            "url": "https://www.jambase.com/band/ordeals",
+            "image": "https://www.jambase.com/wp-content/uploads/2021/08/jambase-default-band-image-bw-1480x832.png",
+            "datePublished": "2019-07-25T13:32:30Z",
+            "dateModified": "2023-12-28T09:07:37Z",
+            "x-bandOrMusician": "band",
+            "x-numUpcomingEvents": 1,
+            "genre": [],
+            "x-performanceDate": "2024-05-23",
+            "x-performanceRank": 5,
+            "x-isHeadliner": false,
+            "x-dateIsConfirmed": true
+          }
+        ],
+        "eventAttendanceMode": "live",
+        "isAccessibleForFree": false,
+        "x-streamIds": [],
+        "x-headlinerInSupport": false,
+        "x-promoImage": "",
+        "x-customTitle": "",
+        "x-subtitle": ""
+      }
+    ]
+  },
+  "request": {
+    "endpoint": "https://www.jambase.com/jb-api/v1/venues/id/jambase:6231804",
+    "method": "GET",
+    "params": {
+      "venueDataSource": "jambase",
+      "sourceVenueId": "6231804",
+      "expandUpcomingEvents": "true",
+      "apikey": "8d3da822-3309-4868-9e7a-699ace421190"
+    },
+    "ip": "2603:7000:483d:fc5c:a11d:d7cd:67ab:c298",
+    "userAgent": "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+  }
+}
