@@ -1,0 +1,477 @@
+[
+  {
+    "@type": "Venue",
+    "name": "The Blue Note",
+    "identifier": "jambase:62507",
+    "url": "https://www.jambase.com/venue/the-blue-note-new-york-ny-us",
+    "image": "",
+    "datePublished": "2015-06-22T07:44:02Z",
+    "dateModified": "2024-01-16T13:10:06Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "131 W. Third Street",
+      "addressLocality": "New York",
+      "postalCode": "10012",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7314,
+      "longitude": -74.0007
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "http://bluenotejazz.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 200,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 216
+  },
+  {
+    "@type": "Venue",
+    "name": "Birdland Theater",
+    "identifier": "jambase:68270",
+    "url": "https://www.jambase.com/venue/birdland-theater",
+    "image": "",
+    "datePublished": "2015-06-22T08:02:22Z",
+    "dateModified": "2024-01-16T13:10:06Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "315 West 44th Street",
+      "addressLocality": "New York",
+      "postalCode": "10036",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7588,
+      "longitude": -73.9894
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://www.birdlandjazz.com/"
+      },
+      {
+        "@type": "URL",
+        "identifier": "facebook",
+        "url": "https://www.facebook.com/BirdlandJazzClub/"
+      },
+      {
+        "@type": "URL",
+        "identifier": "twitter",
+        "url": "http://www.twitter.com/birdlandjazz"
+      },
+      {
+        "@type": "URL",
+        "identifier": "instagram",
+        "url": "http://www.instagram.com/birdlandjazz"
+      }
+    ],
+    "maximumAttendeeCapacity": 200,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 146
+  },
+  {
+    "@type": "Venue",
+    "name": "Birdland Jazz Club",
+    "identifier": "jambase:8109438",
+    "url": "https://www.jambase.com/venue/birdland-jazz-club-2",
+    "image": "",
+    "datePublished": "2021-11-11T15:58:56Z",
+    "dateModified": "2024-01-16T15:10:13Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "315 W 44th St.",
+      "addressLocality": "New York",
+      "postalCode": "10036",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.759,
+      "longitude": -73.9896
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://birdlandjazz.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 200,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 139
+  },
+  {
+    "@type": "Venue",
+    "name": "Mercury Lounge",
+    "identifier": "jambase:62340",
+    "url": "https://www.jambase.com/venue/mercury-lounge",
+    "image": "https://www.jambase.com/wp-content/uploads/2017/03/mercury-lounge-mercury-lounge-7986v-1480x832.gif",
+    "datePublished": "2015-06-22T07:43:35Z",
+    "dateModified": "2024-01-16T19:13:47Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "217 E Houston St.",
+      "addressLocality": "New York",
+      "postalCode": "10002",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7222,
+      "longitude": -73.9889
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "http://www.mercuryloungenyc.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 250,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 71
+  },
+  {
+    "@type": "Venue",
+    "name": "David Geffen Hall at Lincoln Center",
+    "identifier": "jambase:2639079",
+    "url": "https://www.jambase.com/venue/david-geffen-hall-at-lincoln-center",
+    "image": "",
+    "datePublished": "2016-08-29T17:27:03Z",
+    "dateModified": "2024-01-15T07:07:16Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Lincoln Center Plaza",
+      "addressLocality": "New York",
+      "postalCode": "10023",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7726,
+      "longitude": -73.9833
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "http://www.lincolncenter.org/venue/david-geffen-hall"
+      }
+    ],
+    "maximumAttendeeCapacity": 2600,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 68
+  },
+  {
+    "@type": "Venue",
+    "name": "Baby\u2019s All Right",
+    "identifier": "jambase:71773",
+    "url": "https://www.jambase.com/venue/babys-all-right",
+    "image": "",
+    "datePublished": "2015-06-22T08:13:56Z",
+    "dateModified": "2024-01-16T20:13:27Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "146 Broadway",
+      "addressLocality": "Brooklyn",
+      "postalCode": "10006",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223706
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7101,
+      "longitude": -73.9657
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "http://babysallright.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 280,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 64
+  },
+  {
+    "@type": "Venue",
+    "name": "Bowery Ballroom",
+    "identifier": "jambase:73238",
+    "url": "https://www.jambase.com/venue/bowery-ballroom",
+    "image": "https://www.jambase.com/wp-content/uploads/2017/02/bowery-ballroom-bowery-ballroom-7983v-1480x832.gif",
+    "datePublished": "2015-06-22T08:18:46Z",
+    "dateModified": "2024-01-16T18:25:28Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6 Delancey St.",
+      "addressLocality": "New York",
+      "postalCode": "10001",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7208,
+      "longitude": -73.9939
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "http://www.mercuryeastpresents.com/boweryballroom"
+      }
+    ],
+    "maximumAttendeeCapacity": 575,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 61
+  },
+  {
+    "@type": "Venue",
+    "name": "Isaac Stern Auditorium @ Carnegie Hall",
+    "identifier": "jambase:384038",
+    "url": "https://www.jambase.com/venue/isaac-stern-auditorium-carnegie-hall",
+    "image": "",
+    "datePublished": "2015-08-24T12:21:45Z",
+    "dateModified": "2024-01-15T14:34:22Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "881 7th Ave",
+      "addressLocality": "New York",
+      "postalCode": "10019",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.765,
+      "longitude": -73.9799
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://www.carnegiehall.org/"
+      }
+    ],
+    "maximumAttendeeCapacity": 2804,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 59
+  },
+  {
+    "@type": "Venue",
+    "name": "Saint Vitus",
+    "identifier": "jambase:73437",
+    "url": "https://www.jambase.com/venue/saint-vitus",
+    "image": "",
+    "datePublished": "2015-06-22T08:19:25Z",
+    "dateModified": "2024-01-16T21:10:52Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1120 Manhattan Ave",
+      "addressLocality": "Brooklyn",
+      "postalCode": "11222",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223706
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7368,
+      "longitude": -73.955
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://www.saintvitusbar.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 250,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 48
+  },
+  {
+    "@type": "Venue",
+    "name": "Irving Plaza",
+    "identifier": "jambase:62097",
+    "url": "https://www.jambase.com/venue/irving-plaza",
+    "image": "https://www.jambase.com/wp-content/uploads/2017/03/irving-plaza-irving-plaza-17349v-1480x832.jpg",
+    "datePublished": "2015-06-22T07:42:48Z",
+    "dateModified": "2024-01-17T01:10:06Z",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "17 Irving Place",
+      "addressLocality": "New York",
+      "postalCode": "10003",
+      "addressRegion": {
+        "@type": "State",
+        "identifier": "US-NY",
+        "name": "New York",
+        "alternateName": "NY"
+      },
+      "addressCountry": {
+        "@type": "Country",
+        "identifier": "US",
+        "name": "United States",
+        "alternateName": "USA"
+      },
+      "x-streetAddress2": "",
+      "x-timezone": "America/New_York",
+      "x-jamBaseMetroId": 1,
+      "x-jamBaseCityId": 4223296
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7348,
+      "longitude": -73.9882
+    },
+    "sameAs": [
+      {
+        "@type": "URL",
+        "identifier": "officialSite",
+        "url": "https://www.irvingplaza2021.com/"
+      }
+    ],
+    "maximumAttendeeCapacity": 1200,
+    "x-isPermanentlyClosed": false,
+    "x-numUpcomingEvents": 44
+  }
+]
