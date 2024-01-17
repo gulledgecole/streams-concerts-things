@@ -15,6 +15,7 @@ def get_key():
 
     return payload
 
+
 def write_file(content, subfolder_name):
     today_date = datetime.now().strftime("%Y-%m-%d")
     # Get the current script's directory (assumes the script is in "scrapers")
@@ -34,6 +35,7 @@ def write_file(content, subfolder_name):
 
     return
 
+
 def find_venues(payload):
     user_agents_list = [
         "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
@@ -42,16 +44,21 @@ def find_venues(payload):
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",  # trying this
     ]
     url = "https://www.jambase.com/jb-api/v1/venues"
-    params  = {"perPage":"10","geoMetroId":"jambase:1","venueHasUpcomingEvents":"true","apikey": payload}
+    params = {
+        "perPage": "10",
+        "geoMetroId": "jambase:1",
+        "venueHasUpcomingEvents": "true",
+        "apikey": payload,
+    }
     response = requests.get(
         url, headers={"User-Agent": random.choice(user_agents_list)}, params=params
     )
-    content = (response.json())
+    content = response.json()
     content = content["venues"]
     with open("dump.json", "w") as json_file:
         json.dump(content, json_file, indent=2)
-    
-    
+
+
 def bandjam(venue_id, payload):
     data = []
     user_agents_list = [
@@ -74,12 +81,12 @@ def bandjam(venue_id, payload):
         performers = event.get("performer", [])
         offers = event.get("offers", [])
         for offer in offers:
-                price = offer["priceSpecification"]
-                seller = offer["seller"]
+            price = offer["priceSpecification"]
+            seller = offer["seller"]
 
         event_json = {
             "venue": name,
-            "venue_id" : venue_id,
+            "venue_id": venue_id,
             "last_modified": modification_date,
             "price": price,
             "seller": seller,
@@ -89,15 +96,13 @@ def bandjam(venue_id, payload):
 
     return data, folder_name
 
-if __name__ == "__main__": 
+
+if __name__ == "__main__":
     payload = get_key()
-    with open("dump.json", 'r') as file:
+    with open("dump.json", "r") as file:
         dump = json.load(file)
     # Iterate over the keys and process "id" values
     for i in dump:
         venue_id = i.get("identifier")
         response, folder_name = bandjam(venue_id, payload)
         write_file(response, folder_name)
-
-
-
