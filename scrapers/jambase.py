@@ -63,6 +63,23 @@ def find_venues(payload):
         content = content["venues"]
         with open(f"../venues/jambase_{metro_id}.json", "w") as json_file:
             json.dump(content, json_file, indent=2)
+def single_test(venue_id, payload): 
+    user_agents_list = [
+        "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",  # trying this
+    ]
+    params = {"expandUpcomingEvents": "true", "apikey": payload}
+    url = f"https://www.jambase.com/jb-api/v1/venues/id/{venue_id}"
+    response = requests.get(
+        url, headers={"User-Agent": random.choice(user_agents_list)}, params=params
+    )
+    content = response.json()
+
+    return content
+
+
 
 
 def bandjam(venue_id, payload):
@@ -80,16 +97,22 @@ def bandjam(venue_id, payload):
     )
     content = response.json()
     name = content["venue"]["name"]
+    print(venue_id)
     folder_name = name.replace(" ", "_")
     modification_date = content["venue"]["dateModified"]
     events = content["venue"]["events"]
     for event in events:
         performers = event.get("performer", [])
         offers = event.get("offers", [])
-        for offer in offers:
-            price = offer["priceSpecification"]
-            seller = offer["seller"]
-
+        if not offers:
+            # Set default values if the "offers" list is empty
+            price = "xxx"
+            seller = "xxx"
+        else:
+            # Iterate over each offer in the "offers" list
+            for offer in offers:
+                price = offer["priceSpecification"]
+                seller = offer["seller"]
         event_json = {
             "venue": name,
             "venue_id": venue_id,
@@ -108,8 +131,9 @@ if __name__ == "__main__":
     payload = get_key()
     folder_path = "../venues"
     files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
-    for file_name in files:
+    for file_name in files[0:10]:
         file_path = os.path.join(folder_path, file_name)
+        print(file_path)
         with open(file_path, "r") as file:
             dump = json.load(file)
             for i in dump:
