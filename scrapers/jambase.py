@@ -44,19 +44,25 @@ def find_venues(payload):
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",  # trying this
     ]
     url = "https://www.jambase.com/jb-api/v1/venues"
-    params = {
-        "perPage": "10",
-        "geoMetroId": "jambase:1",
-        "venueHasUpcomingEvents": "true",
-        "apikey": payload,
-    }
-    response = requests.get(
-        url, headers={"User-Agent": random.choice(user_agents_list)}, params=params
-    )
-    content = response.json()
-    content = content["venues"]
-    with open("dump.json", "w") as json_file:
-        json.dump(content, json_file, indent=2)
+    ## Apepars 212 is when it cuts off metro IDs.
+    metro_ids = list(range(1, 211))
+    for metro_id in metro_ids:
+        print(metro_id)
+
+        params = {
+            "perPage": "1000",
+            "geoMetroId": f"jambase:{metro_id}",
+            "venueHasUpcomingEvents": "true",
+            "apikey": payload,
+        }
+
+        response = requests.get(
+            url, headers={"User-Agent": random.choice(user_agents_list)}, params=params
+        )
+        content = response.json()
+        content = content["venues"]
+        with open(f"../venues/jambase_{metro_id}.json", "w") as json_file:
+            json.dump(content, json_file, indent=2)
 
 
 def bandjam(venue_id, payload):
@@ -98,11 +104,15 @@ def bandjam(venue_id, payload):
 
 
 if __name__ == "__main__":
+    count = 0
     payload = get_key()
-    with open("dump.json", "r") as file:
-        dump = json.load(file)
-    # Iterate over the keys and process "id" values
-    for i in dump:
-        venue_id = i.get("identifier")
-        response, folder_name = bandjam(venue_id, payload)
-        write_file(response, folder_name)
+    find_venues(payload)
+    # with open("dump.json", "r") as file:
+    #     dump = json.load(file)
+    # # Iterate over the keys and process "id" values
+    # for i in dump:
+    #     count += 1
+    #     print(count)
+    #     venue_id = i.get("identifier")
+    #     response, folder_name = bandjam(venue_id, payload)
+    #     write_file(response, folder_name)
