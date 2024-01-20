@@ -63,7 +63,9 @@ def find_venues(payload):
         content = content["venues"]
         with open(f"../venues/jambase_{metro_id}.json", "w") as json_file:
             json.dump(content, json_file, indent=2)
-def single_test(venue_id, payload): 
+
+
+def single_test(venue_id, payload):
     user_agents_list = [
         "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36",
@@ -78,8 +80,6 @@ def single_test(venue_id, payload):
     content = response.json()
 
     return content
-
-
 
 
 def bandjam(venue_id, payload):
