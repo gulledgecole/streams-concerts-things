@@ -106,13 +106,16 @@ def bandjam(venue_id, payload):
 if __name__ == "__main__":
     count = 0
     payload = get_key()
-    find_venues(payload)
-    # with open("dump.json", "r") as file:
-    #     dump = json.load(file)
-    # # Iterate over the keys and process "id" values
-    # for i in dump:
-    #     count += 1
-    #     print(count)
-    #     venue_id = i.get("identifier")
-    #     response, folder_name = bandjam(venue_id, payload)
-    #     write_file(response, folder_name)
+    folder_path = "../venues"
+    files = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+    for file_name in files:
+        file_path = os.path.join(folder_path, file_name)
+        with open(file_path, "r") as file:
+            dump = json.load(file)
+            for i in dump:
+                count += 1
+                print(count)
+                venue_id = i.get("identifier")
+                response, folder_name = bandjam(venue_id, payload)
+                write_file(response, folder_name)
+
