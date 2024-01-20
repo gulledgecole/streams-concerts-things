@@ -107,7 +107,7 @@ if __name__ == "__main__":
     count = 0
     payload = get_key()
     folder_path = "../venues"
-    files = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+    files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
     for file_name in files:
         file_path = os.path.join(folder_path, file_name)
         with open(file_path, "r") as file:
@@ -118,4 +118,3 @@ if __name__ == "__main__":
                 venue_id = i.get("identifier")
                 response, folder_name = bandjam(venue_id, payload)
                 write_file(response, folder_name)
-
