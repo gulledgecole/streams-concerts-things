@@ -18,6 +18,7 @@ def get_key():
 
 def write_file(content, subfolder_name):
     today_date = datetime.now().strftime("%Y-%m-%d")
+    subfolder_name = subfolder_name.replace("/", "_")
     # Get the current script's directory (assumes the script is in "scrapers")
     script_directory = os.path.dirname(os.path.abspath(__file__))
     # Construct the path to the "concerts" folder at the same level
@@ -131,7 +132,7 @@ if __name__ == "__main__":
     payload = get_key()
     folder_path = "../venues"
     files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
-    for file_name in files[0:10]:
+    for file_name in files[20:30]:
         file_path = os.path.join(folder_path, file_name)
         print(file_path)
         with open(file_path, "r") as file:
