@@ -2,11 +2,11 @@ import csv
 import os
 import json
 from collections import Counter
+
 # Output CSV file
 csv_filename = "venues_agg.csv"
 
 # Set to store unique identifier values
-
 
 
 # Open CSV file for writing
@@ -48,10 +48,10 @@ def get_unique_bands(folder_path):
 
     # Iterate over each JSON file in the folder
     for file_name in os.listdir(folder_path):
-        if file_name.endswith('.json'):
+        if file_name.endswith(".json"):
             file_path = os.path.join(folder_path, file_name)
 
-            with open(file_path, 'r') as file:
+            with open(file_path, "r") as file:
                 data = json.load(file)
 
                 # Iterate over each entry in the JSON file
@@ -61,11 +61,12 @@ def get_unique_bands(folder_path):
                         identifier = band.get("identifier")
                         if identifier:
                             unique_band_ids[identifier] += 1
-    
+
     print(f"Total unique bands: {len(unique_band_ids)}")
 
     # Print the results
     for band_id, count in unique_band_ids.items():
         print(f"Band ID: {band_id}, Occurrences: {count}")
+
 
 get_unique_bands("../concerts")
