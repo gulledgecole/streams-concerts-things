@@ -132,7 +132,7 @@ if __name__ == "__main__":
     payload = get_key()
     folder_path = "../venues"
     files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
-    for file_name in files[20:30]:
+    for file_name in files[110:120]:
         file_path = os.path.join(folder_path, file_name)
         print(file_path)
         with open(file_path, "r") as file:
