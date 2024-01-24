@@ -47,32 +47,34 @@ def get_unique_bands(folder_path):
     unique_band_ids = Counter()
 
     # Iterate over each JSON file in the folder
-    #for file_name in os.listdir(folder_path):
+    # for file_name in os.listdir(folder_path):
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             # Check if the file has a .json extension
             if file.endswith(".json"):
-                    file_path = os.path.join(root, file)
+                file_path = os.path.join(root, file)
 
-                    if os.path.getsize(file_path) > 0:
-                        print(file_path)
+                if os.path.getsize(file_path) > 0:
+                    print(file_path)
 
-                        with open(file_path, "r") as file:
-                            data = json.load(file)
+                    with open(file_path, "r") as file:
+                        data = json.load(file)
 
-                            # Iterate over each entry in the JSON file
-                            for entry in data:
-                                bands = entry.get("bands", [])
-                                for band in bands:
-                                    identifier = band.get("identifier")
-                                    if identifier:
-                                        unique_band_ids[identifier] += 1
+                        # Iterate over each entry in the JSON file
+                        for entry in data:
+                            bands = entry.get("bands", [])
+                            for band in bands:
+                                identifier = band.get("identifier")
+                                if identifier:
+                                    unique_band_ids[identifier] += 1
 
     print(f"Total unique bands: {len(unique_band_ids)}")
 
-    #Print the results
+    # Print the results
     # for band_id, count in unique_band_ids.items():
     #     print(f"Band ID: {band_id}, Occurrences: {count}")
+
+
 # for root, dirs, files in os.walk("../concerts"):
 #         for file in files:
 #             # Check if the file has a .json extension
