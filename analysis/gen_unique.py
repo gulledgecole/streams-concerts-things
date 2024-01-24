@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from collections import Counter
 
+
 def count_files(folder_path):
     files = [f for f in os.listdir(folder_path) if f.endswith(".json")]
 
@@ -25,27 +26,19 @@ def get_unqiue_venues():
 
                 with open(file_path, "r") as file:
                     data = json.load(file)
-
-                    # Iterate over each dictionary in the JSON file
                     for entry in data:
                         # Extract values
                         identifier = entry.get("identifier")
                         max_capacity = entry.get("maximumAttendeeCapacity")
                         venue_name = entry.get("name")
-
-                        # Append to CSV
                         csv_writer.writerow([venue_name, identifier, max_capacity])
         df = pd.read_csv("venue_list.csv")
-        df_sorted = df.sort_values(by='venue_name', ascending=True)
-        # Export the sorted DataFrame to an Excel sheet
+        df_sorted = df.sort_values(by="venue_name", ascending=True)
         df_sorted.to_excel("concerts_list.xlsx", index=False)
 
 
 def get_unique_bands(folder_path):
     unique_band_ids = Counter()
-
-    # Iterate over each JSON file in the folder
-    # for file_name in os.listdir(folder_path):
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             # Check if the file has a .json extension
@@ -63,7 +56,7 @@ def get_unique_bands(folder_path):
                             bands = entry.get("bands", [])
                             for band in bands:
                                 identifier = band.get("identifier")
-                                name = band.get('name')
+                                name = band.get("name")
                                 if name:
                                     unique_band_ids[name] += 1
 
@@ -74,22 +67,23 @@ def get_unique_bands(folder_path):
     #     csv_writer.writerow(["band_name", 'occurrences'])
     #     for name, count in unique_band_ids.items():
     #         csv_writer.writerow([name, count])
-    df = pd.DataFrame(list(unique_band_ids.items()), columns=['band_name', 'occurrences'])
+    df = pd.DataFrame(
+        list(unique_band_ids.items()), columns=["band_name", "occurrences"]
+    )
 
     # Sort the DataFrame by the "occurrences" column in descending order
-    df_sorted = df.sort_values(by='occurrences', ascending=False)
+    df_sorted = df.sort_values(by="occurrences", ascending=False)
 
     # Specify the Excel file path for export
-    excel_file_path = 'bands_occurences.xlsx'
+    excel_file_path = "bands_occurences.xlsx"
 
     # Export the sorted DataFrame to an Excel sheet
     df_sorted.to_excel(excel_file_path, index=False)
 
     df = pd.read_csv("band_names_occurances.csv")
 
-# Sort the DataFrame by the "occurrences" column in descending order
-    df_sorted = df.sort_values(by='occurrences', ascending=False)
-
+    # Sort the DataFrame by the "occurrences" column in descending order
+    df_sorted = df.sort_values(by="occurrences", ascending=False)
 
 
 # get_unique_bands("../concerts")
