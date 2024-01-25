@@ -1,6 +1,7 @@
 import requests
 import random
 
+
 def bandjam(venue_id, payload):
     data = []
     user_agents_list = [
@@ -41,6 +42,5 @@ def bandjam(venue_id, payload):
             "bands": performers,
         }
         data.append(event_json)
-        
 
     return data, folder_name

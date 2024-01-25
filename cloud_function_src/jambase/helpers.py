@@ -1,6 +1,7 @@
 from google.cloud import secretmanager
 from google.cloud import storage
 
+
 def get_key():
     client = secretmanager.SecretManagerServiceClient()
     name = "projects/639888050178/secrets/jambase/versions/1"
