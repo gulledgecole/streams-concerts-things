@@ -15,6 +15,7 @@ def get_key():
 
     return payload
 
+
 def find_venues(payload):
     user_agents_list = [
         "Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
@@ -24,12 +25,13 @@ def find_venues(payload):
     ]
     url = f"https://www.jambase.com/jb-api/v1/artists/id/jambase:3754557?expandPastEvents=true&apikey={payload}"
     response = requests.get(
-            url, headers={"User-Agent": random.choice(user_agents_list)}
-        )
+        url, headers={"User-Agent": random.choice(user_agents_list)}
+    )
     content = response.json()
     with open("./history.json", "w") as json_file:
         json.dump(content, json_file)
 
-if __name__ == "__main__": 
+
+if __name__ == "__main__":
     payload = get_key()
     find_venues(payload)
